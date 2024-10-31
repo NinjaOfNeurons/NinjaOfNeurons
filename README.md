@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Headland+One&size=26&pause=1000&vCenter=true&Center=true&color=3407C3&width=435&lines=Hi%2C+My+Name+is+Karanpreet+%F0%9F%91%8B%F0%9F%8F%BB;Welcome+to+My+GitHub+Profile.;I+am+an+AI+enthusiast.%F0%9F%A4%96)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=%F0%9F%91%8B+Hi+there!+I'm+Karanpreet;++%F0%9F%8C%9F+Welcome+to+my+new+GitHub+profile!;++%F0%9F%A4%96+Exploring+the+amazing+world+of+AI+and+tech+;+%F0%9F%9A%80+Let's+connect+and+innovate+together!)](https://git.io/typing-svg)
 
 <img align="right" alt="Coding" width="370" src="https://vitalflux.com/wp-content/uploads/2020/10/feed_forward_neural_network-1.gif">
 
