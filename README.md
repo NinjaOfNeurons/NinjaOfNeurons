@@ -1,6 +1,6 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=%F0%9F%91%8B+Hi+there!+I'm+Karanpreet;++%F0%9F%8C%9F+Welcome+to+my+new+GitHub+profile!;++%F0%9F%A4%96+Exploring+the+amazing+world+of+AI+and+tech+;+%F0%9F%9A%80+Let's+connect+and+innovate+together!)](https://git.io/typing-svg)
 
-<img alt="Coding" width="950" src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2F9mtznxfpdeuq48ed1el8.gif"> 
+<img alt="Coding" width="950" src=""> 
 
 <h3 align="left">"Let's connect and explore the fascinating world of AI together!"</h3>
 🔭 I am a Machine Learning Engineer and Product Lead at Vector Edge, specializing in innovative solutions that leverage AI and edge computing.
