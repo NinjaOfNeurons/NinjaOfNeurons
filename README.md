@@ -14,7 +14,7 @@
 ## 📚 Research Publications
 Check out my [**Google Scholar profile**](https://scholar.google.com/citations?user=gmjWDxkAAAAJ&hl=en) for my research papers and academic contributions.
 
-📈 Currently building:  
+## 📈 Currently building:  
 - `rag-insider-risk` → RAG pipeline for insider risk data  
 - `model-health-dashboard` → AI model drift & reliability monitor
   
