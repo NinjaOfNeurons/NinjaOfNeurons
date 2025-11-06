@@ -11,8 +11,13 @@
 
 📫 Feel free to reach out to me at dev.karanpreet@gmail.com.
 
-📄 Check out my experiences and projects here.
+## 📚 Research Publications
+Check out my [**Google Scholar profile**](https://scholar.google.com/citations?user=gmjWDxkAAAAJ&hl=en) for my research papers and academic contributions.
 
+📈 Currently building:  
+- `rag-insider-risk` → RAG pipeline for insider risk data  
+- `model-health-dashboard` → AI model drift & reliability monitor
+  
 ⚡ Fun fact: I transform ideas into reality through the power of programming!
 
 <h3 align="left">Connect with me:</h3> <p align="left"> <a href="https://www.linkedin.com/in/karanpreet-5ingh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" 
