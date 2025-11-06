@@ -2,7 +2,7 @@
 
 
 
-<h3 align="left">"Let's connect and explore the fascinating world of AI together!"</h3>
+<h3 align="left">"Let's connect and explore the world of AI together!"</h3>
 🔭 I am a Machine Learning Engineer and Product Lead at Vector Edge, specializing in innovative solutions that leverage AI and edge computing.
 
 🎓 I have completed my Master's degree and am passionate about advancing the field of AI through hands-on projects.
