@@ -9,29 +9,18 @@
 
 ---
 
-## 🧠 About Me
+## About Me
 
-🔭 Machine Learning Engineer & Product Lead at **Vector Edge**
+ Machine Learning Engineer & Product Lead at **Vector Edge**
 🎓 Master’s Graduate | AI Research Enthusiast
-🌱 Currently exploring **Stable Diffusion, RL, and Bitcoin systems**
-⚡ I build intelligent systems that move from research → production
+ Currently exploring **Stable Diffusion, RL, and Bitcoin systems**
+ I build intelligent systems that move from research → production
 
 > *“Let’s connect and explore the world of AI together.”*
 
 ---
 
-Perfect — let’s structure this cleanly and professionally.
-
-We’ll separate it into:
-
-* 🚀 **Currently Building**
-* 🔮 **Upcoming / Future Projects**
-
-Here’s the updated section — paste directly into your README:
-
----
-
-## 🚀 Currently Building
+## Currently Building
 
 ```bash
 cli-rag-app              → Command-line RAG application for intelligent retrieval
@@ -40,7 +29,7 @@ agentic-ai-lab           → Exploring autonomous agents & tool-using AI systems
 
 ---
 
-## 🔮 Upcoming Projects
+## Upcoming Projects
 
 ```bash
 rag-insider-risk        → RAG pipeline for insider risk intelligence
@@ -49,34 +38,34 @@ model-health-dashboard   → AI model drift & reliability monitoring
 
 ---
 
-## 📚 Research
+## Research
 
-📖 Explore my academic work on Google Scholar:
-👉 [https://scholar.google.com/citations?user=gmjWDxkAAAAJ&hl=en](https://scholar.google.com/citations?user=gmjWDxkAAAAJ&hl=en)
+ Explore my academic work on Google Scholar:
+ [https://scholar.google.com/citations?user=gmjWDxkAAAAJ&hl=en](https://scholar.google.com/citations?user=gmjWDxkAAAAJ&hl=en)
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
-### 👨‍💻 Languages
+### Languages
 
 <p>
 Python • C++ • C • SQL
 </p>
 
-### 🤖 AI / ML
+### AI / ML
 
 <p>
 PyTorch • TensorFlow • Scikit-Learn • OpenCV • Pandas • Seaborn
 </p>
 
-### ☁️ DevOps / Cloud
+### DevOps / Cloud
 
 <p>
 Docker • GCP • Linux • Git
 </p>
 
-### 🌐 Frameworks
+### Frameworks
 
 <p>
 Flask • Django • Android • Arduino
@@ -84,7 +73,7 @@ Flask • Django • Android • Arduino
 
 ---
 
-## 🔥 Contribution Streak
+##  Contribution Streak
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=NinjaOfNeurons&theme=tokyonight&hide_border=true" />
@@ -92,7 +81,7 @@ Flask • Django • Android • Arduino
 
 ---
 
-## 🌐 Connect With Me
+##  Connect With Me
 
 <p align="center">
   <a href="https://www.linkedin.com/in/karanpreet-5ingh">
@@ -108,12 +97,12 @@ Flask • Django • Android • Arduino
 
 ---
 
-## 🎯 2026 Vision
+##  2026 Vision
 
-* 🚀 Build production-grade AI systems at scale
-* 🧠 Publish impactful applied AI research
-* 🔐 Explore AI + Security + Edge Intelligence
-* ₿ Deep dive into Bitcoin infra & decentralized systems
+*  Build production-grade AI systems at scale
+*  Publish impactful applied AI research
+*  Explore AI + Security + Edge Intelligence
+*  Deep dive into Bitcoin infra & decentralized systems
 
 ---
 
