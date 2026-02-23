@@ -115,6 +115,6 @@ Flask • Django • Android • Arduino
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=karanpreet-5ingh&color=blueviolet&style=flat-square" />
+  <img src="https://komarev.com/ghpvc/?username=NinjaOfNeurons&color=blueviolet&style=flat-square" />
 </p>
 
