@@ -20,11 +20,31 @@
 
 ---
 
+Perfect — let’s structure this cleanly and professionally.
+
+We’ll separate it into:
+
+* 🚀 **Currently Building**
+* 🔮 **Upcoming / Future Projects**
+
+Here’s the updated section — paste directly into your README:
+
+---
+
 ## 🚀 Currently Building
 
 ```bash
+cli-rag-app              → Command-line RAG application for intelligent retrieval
+agentic-ai-lab           → Exploring autonomous agents & tool-using AI systems
+```
+
+---
+
+## 🔮 Upcoming Projects
+
+```bash
 rag-insider-risk        → RAG pipeline for insider risk intelligence
-model-health-dashboard  → AI model drift & reliability monitoring
+model-health-dashboard   → AI model drift & reliability monitoring
 ```
 
 ---
