@@ -1,26 +1,120 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=%F0%9F%91%8B+Hi+there!+I'm+Karanpreet;++%F0%9F%8C%9F+Welcome+to+my+new+GitHub+profile!;++%F0%9F%A4%96+Exploring+the+amazing+world+of+AI+and+tech+;+%F0%9F%9A%80+Let's+connect+and+innovate+together!)](https://git.io/typing-svg)
 
+# Karanpreet Singh
 
+### *Machine Learning Engineer · Product Lead · AI Explorer*
 
-<h3 align="left">"Let's connect and explore the world of AI together!"</h3>
-🔭 I am a Machine Learning Engineer and Product Lead at Vector Edge, specializing in innovative solutions that leverage AI and edge computing.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=600&lines=Machine+Learning+Engineer;Building+AI+at+the+Edge;RAG+%7C+Stable+Diffusion+%7C+Reinforcement+Learning;Transforming+Ideas+Into+Intelligence" />
+</p>
 
-🎓 I have completed my Master's degree and am passionate about advancing the field of AI through hands-on projects.
+---
 
-🌱 Currently diving deep into Stable Diffusion, Reinforcement Learning, and Bitcoin to enhance my skills and knowledge.
+## 🧠 About Me
 
-📫 Feel free to reach out to me at dev.karanpreet@gmail.com.
+🔭 Machine Learning Engineer & Product Lead at **Vector Edge**
+🎓 Master’s Graduate | AI Research Enthusiast
+🌱 Currently exploring **Stable Diffusion, RL, and Bitcoin systems**
+⚡ I build intelligent systems that move from research → production
 
-## 📚 Research Publications
-Check out my [**Google Scholar profile**](https://scholar.google.com/citations?user=gmjWDxkAAAAJ&hl=en) for my research papers and academic contributions.
+> *“Let’s connect and explore the world of AI together.”*
 
-## 📈 Currently building:  
-- `rag-insider-risk` → RAG pipeline for insider risk data  
-- `model-health-dashboard` → AI model drift & reliability monitor
-  
-⚡ Fun fact: I transform ideas into reality through the power of programming!
+---
 
-<h3 align="left">Connect with me:</h3> <p align="left"> <a href="https://www.linkedin.com/in/karanpreet-5ingh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" 
-alt="karanpreet singh" height="30" width="40" /></a> <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" 
-alt="karanpreet_5ingh" height="30" width="40" /></a> <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg"
-                                                                                                                            alt="karanpreet_sing2" height="30" width="40" /></a> </p> <h3 align="left">Languages and Tools:</h3> <p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+## 🚀 Currently Building
+
+```bash
+rag-insider-risk        → RAG pipeline for insider risk intelligence
+model-health-dashboard  → AI model drift & reliability monitoring
+```
+
+---
+
+## 📚 Research
+
+📖 Explore my academic work on Google Scholar:
+👉 [https://scholar.google.com/citations?user=gmjWDxkAAAAJ&hl=en](https://scholar.google.com/citations?user=gmjWDxkAAAAJ&hl=en)
+
+---
+
+## 🛠 Tech Stack
+
+### 👨‍💻 Languages
+
+<p>
+Python • C++ • C • SQL
+</p>
+
+### 🤖 AI / ML
+
+<p>
+PyTorch • TensorFlow • Scikit-Learn • OpenCV • Pandas • Seaborn
+</p>
+
+### ☁️ DevOps / Cloud
+
+<p>
+Docker • GCP • Linux • Git
+</p>
+
+### 🌐 Frameworks
+
+<p>
+Flask • Django • Android • Arduino
+</p>
+
+---
+
+## 📊 GitHub Analytics
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=NinjaOfNeurons&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NinjaOfNeurons&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+## 🔥 Contribution Streak
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=NinjaOfNeurons&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+## 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=NinjaOfNeurons&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15" />
+</p>
+
+---
+
+## 🌐 Connect With Me
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/karanpreet-5ingh">
+    <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:dev.karanpreet@gmail.com">
+    <img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://scholar.google.com/citations?user=gmjWDxkAAAAJ&hl=en">
+    <img src="https://img.shields.io/badge/Google%20Scholar-0d1117?style=for-the-badge&logo=googlescholar&logoColor=white"/>
+  </a>
+</p>
+
+---
+
+## 🎯 2026 Vision
+
+* 🚀 Build production-grade AI systems at scale
+* 🧠 Publish impactful applied AI research
+* 🔐 Explore AI + Security + Edge Intelligence
+* ₿ Deep dive into Bitcoin infra & decentralized systems
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=karanpreet-5ingh&color=blueviolet&style=flat-square" />
+</p>
+
