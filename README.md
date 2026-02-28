@@ -12,8 +12,8 @@
 
 ```
 ╔══════════════════════════════════════════════════════╗
-║   ML Engineer @ Vector Edge  ·  MSc AI Graduate     ║
-║   Stable Diffusion  ·  RL  ·  Bitcoin Systems       ║
+║   ML Engineer @ Vector Edge  ·  MSc AI Graduate      ║
+║   Stable Diffusion  ·  RL  ·  Bitcoin Systems        ║
 ║   Research → Production · Edge Intelligence          ║
 ╚══════════════════════════════════════════════════════╝
 ```
