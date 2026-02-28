@@ -91,9 +91,18 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=NinjaOfNeurons&theme=transparent&hide_border=false&border=3d2a5e&background=00000000&ring=c084fc&fire=9333ea&currStreakLabel=c084fc&sideLabels=c084fc&dates=8b8fa8&stroke=3d2a5e" height="165" />
 
-<img src="https://github-readme-stats.vercel.app/api?username=NinjaOfNeurons&show_icons=true&hide_border=false&border_color=3d2a5e&theme=transparent&bg_color=00000000&title_color=c084fc&icon_color=9333ea&text_color=e2e8f0" height="165" />
+  <img 
+    src="https://streak-stats.demolab.com?user=NinjaOfNeurons&theme=transparent&hide_border=false&border=3d2a5e&background=00000000&ring=c084fc&fire=9333ea&currStreakLabel=c084fc&sideLabels=c084fc&dates=8b8fa8&stroke=3d2a5e" 
+    height="165" 
+    style="display:inline-block;border-radius:8px;" 
+  />
+
+  <img 
+    src="https://readme-stats-fast.vercel.app/api?username=NinjaOfNeurons&show_icons=true&hide_border=false&theme=transparent&bg_color=00000000&title_color=c084fc&icon_color=9333ea&text_color=e2e8f0&border_color=3d2a5e" 
+    height="165" 
+    style="display:inline-block; border-radius:8px;" 
+  />
 
 </div>
 
