@@ -48,38 +48,38 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 **Languages**
 
-![Python](https://img.shields.io/badge/Python-1e1b2e?style=flat-square&logo=python&logoColor=c084fc)
-![C++](https://img.shields.io/badge/C++-1e1b2e?style=flat-square&logo=cplusplus&logoColor=c084fc)
-![C](https://img.shields.io/badge/C-1e1b2e?style=flat-square&logo=c&logoColor=c084fc)
-![SQL](https://img.shields.io/badge/SQL-1e1b2e?style=flat-square&logo=postgresql&logoColor=c084fc)
+![Python](https://img.shields.io/badge/Python-1e1b2e?style=flat-square&logo=python&logoColor=c084fc&logoWidth=60)
+![C++](https://img.shields.io/badge/C++-1e1b2e?style=flat-square&logo=cplusplus&logoColor=c084fc&logoWidth=30)
+![C](https://img.shields.io/badge/C-1e1b2e?style=flat-square&logo=c&logoColor=c084fc&logoWidth=30)
+![SQL](https://img.shields.io/badge/SQL-1e1b2e?style=flat-square&logo=postgresql&logoColor=c084fc&logoWidth=30)
 
 <br/>
 
 **AI / ML**
 
-![PyTorch](https://img.shields.io/badge/PyTorch-1e1b2e?style=flat-square&logo=pytorch&logoColor=c084fc)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-1e1b2e?style=flat-square&logo=tensorflow&logoColor=c084fc)
-![Scikit--Learn](https://img.shields.io/badge/Scikit--Learn-1e1b2e?style=flat-square&logo=scikitlearn&logoColor=c084fc)
-![OpenCV](https://img.shields.io/badge/OpenCV-1e1b2e?style=flat-square&logo=opencv&logoColor=c084fc)
-![Pandas](https://img.shields.io/badge/Pandas-1e1b2e?style=flat-square&logo=pandas&logoColor=c084fc)
+![PyTorch](https://img.shields.io/badge/PyTorch-1e1b2e?style=flat-square&logo=pytorch&logoColor=c084fc&logoWidth=30)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-1e1b2e?style=flat-square&logo=tensorflow&logoColor=c084fc&logoWidth=30)
+![Scikit--Learn](https://img.shields.io/badge/Scikit--Learn-1e1b2e?style=flat-square&logo=scikitlearn&logoColor=c084fc&logoWidth=30)
+![OpenCV](https://img.shields.io/badge/OpenCV-1e1b2e?style=flat-square&logo=opencv&logoColor=c084fc&logoWidth=30)
+![Pandas](https://img.shields.io/badge/Pandas-1e1b2e?style=flat-square&logo=pandas&logoColor=c084fc&logoWidth=30)
 
 <br/>
 
 **DevOps / Cloud**
 
-![Docker](https://img.shields.io/badge/Docker-1e1b2e?style=flat-square&logo=docker&logoColor=c084fc)
-![GCP](https://img.shields.io/badge/GCP-1e1b2e?style=flat-square&logo=googlecloud&logoColor=c084fc)
-![Linux](https://img.shields.io/badge/Linux-1e1b2e?style=flat-square&logo=linux&logoColor=c084fc)
-![Git](https://img.shields.io/badge/Git-1e1b2e?style=flat-square&logo=git&logoColor=c084fc)
+![Docker](https://img.shields.io/badge/Docker-1e1b2e?style=flat-square&logo=docker&logoColor=c084fc&logoWidth=30)
+![GCP](https://img.shields.io/badge/GCP-1e1b2e?style=flat-square&logo=googlecloud&logoColor=c084fc&logoWidth=30)
+![Linux](https://img.shields.io/badge/Linux-1e1b2e?style=flat-square&logo=linux&logoColor=c084fc&logoWidth=30)
+![Git](https://img.shields.io/badge/Git-1e1b2e?style=flat-square&logo=git&logoColor=c084fc&logoWidth=30)
 
 <br/>
 
 **Frameworks**
 
-![Flask](https://img.shields.io/badge/Flask-1e1b2e?style=flat-square&logo=flask&logoColor=c084fc)
-![Django](https://img.shields.io/badge/Django-1e1b2e?style=flat-square&logo=django&logoColor=c084fc)
-![Android](https://img.shields.io/badge/Android-1e1b2e?style=flat-square&logo=android&logoColor=c084fc)
-![Arduino](https://img.shields.io/badge/Arduino-1e1b2e?style=flat-square&logo=arduino&logoColor=c084fc)
+![Flask](https://img.shields.io/badge/Flask-1e1b2e?style=flat-square&logo=flask&logoColor=c084fc&logoWidth=30)
+![Django](https://img.shields.io/badge/Django-1e1b2e?style=flat-square&logo=django&logoColor=c084fc&logoWidth=30)
+![Android](https://img.shields.io/badge/Android-1e1b2e?style=flat-square&logo=android&logoColor=c084fc&logoWidth=30)
+![Arduino](https://img.shields.io/badge/Arduino-1e1b2e?style=flat-square&logo=arduino&logoColor=c084fc&logoWidth=30)
 
 <br/>
 
