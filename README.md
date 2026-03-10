@@ -125,7 +125,7 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 <div align="center">
 
-[![Advanced RAG with Vector Databases and Retrievers](https://images.credly.com/size/110x110/images/487b8d6c-4a04-4049-be2f-515f4e570f15.png)](https://www.credly.com/badges/487b8d6c-4a04-4049-be2f-515f4e570f15)
+[![Advanced RAG with Vector Databases and Retrievers](assets/badges/rag-cert.png)](https://www.credly.com/badges/487b8d6c-4a04-4049-be2f-515f4e570f15)
 
 **Advanced RAG with Vector Databases and Retrievers**  
 Issued by Coursera · Verified via Credly
