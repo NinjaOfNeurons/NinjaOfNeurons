@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b0764,50:6b21a8,100:3b0764&height=200&section=header&text=%20Singh&fontSize=54&fontColor=ffffff&fontAlignY=38&desc=Machine%20Learning%20Engineer%20%C2%B7%20Product%20Lead%20%C2%B7%20AI%20Explorer&descAlignY=58&descSize=16&descColor=e9d5ff" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b0764,50:6b21a8,100:3b0764&height=200&section=header&text=Karanpreet%20Singh&fontSize=54&fontColor=ffffff&fontAlignY=38&desc=Machine%20Learning%20Engineer%20%C2%B7%20Product%20Lead%20%C2%B7%20AI%20Explorer&descAlignY=58&descSize=16&descColor=e9d5ff" />
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=3000&pause=800&color=C084FC&center=true&vCenter=true&width=700&lines=Building+AI+Systems+at+the+Edge+%E2%86%92+Production;RAG+%7C+Stable+Diffusion+%7C+Reinforcement+Learning;Research+%2B+Engineering+%2B+Security+%2B+Bitcoin;Transforming+Ideas+Into+Intelligence" alt="Typing SVG" />
 
@@ -39,7 +39,6 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 ```
 
 ---
-
 
 ## Tech Stack
 
@@ -112,25 +111,13 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 ## Activity
 
-<table align="center" style="border-collapse: collapse; border: none;">
-  <tr>
-    <td>
-      <img 
-        src="https://streak-stats.demolab.com?user=NinjaOfNeurons&theme=transparent&hide_border=false&border=3b0764&background=00000000&ring=c084fc&fire=9333ea&currStreakLabel=c084fc&sideLabels=c084fc&dates=8b8fa8&stroke=3d2a5e" 
-        height="165" 
-        style="border-radius:8px;"
-      />
-    </td>
-    <td style="width:15px;"></td>
-    <td>
-      <img 
-        src="https://readme-stats-fast.vercel.app/api?username=NinjaOfNeurons&show_icons=true&hide_border=false&theme=transparent&bg_color=00000000&title_color=c084fc&icon_color=9333ea&text_color=e2e8f0&border_color=3b0764" 
-        height="165" 
-        style="border-radius:8px;"
-      />
-    </td>
-  </tr>
-</table>
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=NinjaOfNeurons&theme=transparent&hide_border=false&border=3d2a5e&background=00000000&ring=c084fc&fire=9333ea&currStreakLabel=c084fc&sideLabels=c084fc&dates=8b8fa8&stroke=3d2a5e" height="165" />
+
+<img src="https://github-readme-stats.vercel.app/api?username=NinjaOfNeurons&show_icons=true&hide_border=false&border_color=3d2a5e&theme=transparent&bg_color=00000000&title_color=c084fc&icon_color=9333ea&text_color=e2e8f0" height="165" />
+
+</div>
 
 ---
 
@@ -148,18 +135,36 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 <div align="center">
 
-<a href="https://www.credly.com/badges/487b8d6c-4a04-4049-be2f-515f4e570f15">
-  <img src="assets/badges/rag-cert.png" width="180"/>
-</a>
+<br/>
 
-<br>
+<table border="0" cellspacing="0" cellpadding="20">
+  <tr>
+    <td align="center">
+      <a href="https://www.credly.com/badges/487b8d6c-4a04-4049-be2f-515f4e570f15" target="_blank">
+        <img src="https://images.credly.com/size/340x340/images/487b8d6c-4a04-4049-be2f-515f4e570f15/image.png" width="120" />
+      </a>
+      <br/><br/>
+      <sub><b>Advanced RAG with Vector Databases</b></sub><br/>
+      <sub>Coursera &nbsp;·&nbsp; Verified on Credly</sub>
+    </td>
+    <td width="60"></td>
+    <td align="center">
+      <a href="https://www.credly.com/badges/ca8d463b-5766-4baf-bf06-1a0d8bf58a12/public_url" target="_blank">
+        <img src="https://images.credly.com/size/340x340/images/ca8d463b-5766-4baf-bf06-1a0d8bf58a12/image.png" width="120" />
+      </a>
+      <br/><br/>
+      <sub><b>Fundamentals of Building AI Agents</b></sub><br/>
+      <sub>Coursera &nbsp;·&nbsp; Verified on Credly</sub>
+    </td>
+  </tr>
+</table>
 
-**Advanced RAG with Vector Databases and Retrievers**  
-Issued by Coursera · Verified via Credly
+<br/>
 
 </div>
 
 ---
+
 ## 2026 Vision
 
 ```
