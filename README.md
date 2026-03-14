@@ -141,7 +141,7 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
   <tr>
     <td align="center">
       <a href="https://www.credly.com/badges/487b8d6c-4a04-4049-be2f-515f4e570f15" target="_blank">
-        <img src="https://images.credly.com/size/340x340/images/487b8d6c-4a04-4049-be2f-515f4e570f15/image.png" width="120" />
+        <img src="assets/badges/rag-cert.png" width="120" />
       </a>
       <br/><br/>
       <sub><b>Advanced RAG with Vector Databases</b></sub><br/>
@@ -150,7 +150,7 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
     <td width="60"></td>
     <td align="center">
       <a href="https://www.credly.com/badges/ca8d463b-5766-4baf-bf06-1a0d8bf58a12/public_url" target="_blank">
-        <img src="https://images.credly.com/size/340x340/images/ca8d463b-5766-4baf-bf06-1a0d8bf58a12/image.png" width="120" />
+        <img src="assets/badges/ai-agents-cert.png" width="120" />
       </a>
       <br/><br/>
       <sub><b>Fundamentals of Building AI Agents</b></sub><br/>
