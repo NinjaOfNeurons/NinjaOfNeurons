@@ -1,14 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="380" viewBox="0 0 600 380">
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="440" viewBox="0 0 620 440">
   <defs>
     <style>
-      .bg { fill: #0d1117; }
-      .bubble {
-        fill: #1e1b2e;
-        rx: 18;
-      }
-      .bubble-accent {
-        fill: #2d1b4e;
-      }
       .text {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
         font-size: 15px;
@@ -25,25 +17,18 @@
         font-weight: 700;
         fill: #ffffff;
       }
-
-      /* Bubble 1 */
       .b1 { opacity: 0; animation: fadeUp 0.5s ease forwards; animation-delay: 0.3s; }
-      /* Bubble 2 */
-      .b2 { opacity: 0; animation: fadeUp 0.5s ease forwards; animation-delay: 1.2s; }
-      /* Bubble 3 */
-      .b3 { opacity: 0; animation: fadeUp 0.5s ease forwards; animation-delay: 2.2s; }
-      /* Bubble 4 */
-      .b4 { opacity: 0; animation: fadeUp 0.5s ease forwards; animation-delay: 3.3s; }
-      /* Bubble 5 */
-      .b5 { opacity: 0; animation: fadeUp 0.5s ease forwards; animation-delay: 4.4s; }
+      .b2 { opacity: 0; animation: fadeUp 0.5s ease forwards; animation-delay: 1.4s; }
+      .b3 { opacity: 0; animation: fadeUp 0.5s ease forwards; animation-delay: 2.6s; }
+      .b4 { opacity: 0; animation: fadeUp 0.5s ease forwards; animation-delay: 3.8s; }
+      .b5 { opacity: 0; animation: fadeUp 0.5s ease forwards; animation-delay: 5.0s; }
 
-      /* Typing dots */
-      .typing1 { opacity: 0; animation: showHide 0.9s ease forwards; animation-delay: 0.3s; }
-      .typing2 { opacity: 0; animation: showHide 0.9s ease forwards; animation-delay: 1.2s; }
-      .typing3 { opacity: 0; animation: showHide 0.9s ease forwards; animation-delay: 2.2s; }
-      .typing4 { opacity: 0; animation: showHide 0.9s ease forwards; animation-delay: 3.3s; }
+      .typing1 { opacity: 0; animation: showHide 1.0s ease forwards; animation-delay: 0.3s; }
+      .typing2 { opacity: 0; animation: showHide 1.0s ease forwards; animation-delay: 1.4s; }
+      .typing3 { opacity: 0; animation: showHide 1.0s ease forwards; animation-delay: 2.6s; }
+      .typing4 { opacity: 0; animation: showHide 1.0s ease forwards; animation-delay: 3.8s; }
 
-      .dot1 { animation: bounce 0.6s ease infinite; animation-delay: 0s; }
+      .dot1 { animation: bounce 0.6s ease infinite; }
       .dot2 { animation: bounce 0.6s ease infinite; animation-delay: 0.15s; }
       .dot3 { animation: bounce 0.6s ease infinite; animation-delay: 0.3s; }
 
@@ -58,80 +43,82 @@
       }
       @keyframes bounce {
         0%, 100% { transform: translateY(0); }
-        50%       { transform: translateY(-4px); }
+        50%      { transform: translateY(-4px); }
       }
     </style>
   </defs>
 
   <!-- Background -->
-  <rect width="600" height="380" fill="#0d1117" rx="16"/>
+  <rect width="620" height="440" fill="#0d1117" rx="16"/>
 
   <!-- Header -->
   <text class="hi" x="28" y="44">Hi there 👋</text>
 
-  <!-- Typing indicator 1 -->
+  <!-- Typing 1 -->
   <g class="typing1">
-    <rect x="28" y="60" width="72" height="34" rx="17" fill="#1e1b2e"/>
-    <circle class="dot1" cx="46" cy="77" r="4" fill="#c084fc"/>
-    <circle class="dot2" cx="60" cy="77" r="4" fill="#c084fc"/>
-    <circle class="dot3" cx="74" cy="77" r="4" fill="#c084fc"/>
+    <rect x="28" y="62" width="72" height="34" rx="17" fill="#1e1b2e"/>
+    <circle class="dot1" cx="46" cy="79" r="4" fill="#c084fc"/>
+    <circle class="dot2" cx="60" cy="79" r="4" fill="#c084fc"/>
+    <circle class="dot3" cx="74" cy="79" r="4" fill="#c084fc"/>
   </g>
 
-  <!-- Bubble 1: Hi, I'm Karan -->
+  <!-- Bubble 1: Intro -->
   <g class="b1">
-    <rect x="28" y="60" width="178" height="40" rx="18" fill="#1e1b2e"/>
-    <text class="text" x="48" y="85">Hi, I'm Karan 👨‍💻</text>
+    <rect x="28" y="62" width="190" height="40" rx="18" fill="#1e1b2e"/>
+    <text class="text" x="48" y="87">Hi, I'm Karan </text>
   </g>
 
-  <!-- Typing indicator 2 -->
+  <!-- Typing 2 -->
   <g class="typing2">
-    <rect x="28" y="112" width="72" height="34" rx="17" fill="#1e1b2e"/>
-    <circle class="dot1" cx="46" cy="129" r="4" fill="#c084fc"/>
-    <circle class="dot2" cx="60" cy="129" r="4" fill="#c084fc"/>
-    <circle class="dot3" cx="74" cy="129" r="4" fill="#c084fc"/>
+    <rect x="28" y="116" width="72" height="34" rx="17" fill="#1e1b2e"/>
+    <circle class="dot1" cx="46" cy="133" r="4" fill="#c084fc"/>
+    <circle class="dot2" cx="60" cy="133" r="4" fill="#c084fc"/>
+    <circle class="dot3" cx="74" cy="133" r="4" fill="#c084fc"/>
   </g>
 
-  <!-- Bubble 2: ML Engineer -->
+  <!-- Bubble 2: Role -->
   <g class="b2">
-    <rect x="28" y="112" width="420" height="56" rx="18" fill="#1e1b2e"/>
-    <text class="text" x="48" y="135">ML Engineer @ Vector Edge</text>
-    <text class="text" x="48" y="157">Building AI systems from research → production</text>
+    <rect x="28" y="116" width="435" height="56" rx="18" fill="#1e1b2e"/>
+    <text class="text" x="48" y="139">ML Engineer @ Vector Edge · MSc AI Graduate</text>
+    <text class="text" x="48" y="161">Building AI systems from research → production</text>
   </g>
 
-  <!-- Typing indicator 3 -->
+  <!-- Typing 3 -->
   <g class="typing3">
-    <rect x="28" y="180" width="72" height="34" rx="17" fill="#1e1b2e"/>
-    <circle class="dot1" cx="46" cy="197" r="4" fill="#c084fc"/>
-    <circle class="dot2" cx="60" cy="197" r="4" fill="#c084fc"/>
-    <circle class="dot3" cx="74" cy="197" r="4" fill="#c084fc"/>
+    <rect x="28" y="186" width="72" height="34" rx="17" fill="#1e1b2e"/>
+    <circle class="dot1" cx="46" cy="203" r="4" fill="#c084fc"/>
+    <circle class="dot2" cx="60" cy="203" r="4" fill="#c084fc"/>
+    <circle class="dot3" cx="74" cy="203" r="4" fill="#c084fc"/>
   </g>
 
-  <!-- Bubble 3: Research -->
+  <!-- Bubble 3: Focus areas (2 lines) -->
   <g class="b3">
-    <rect x="28" y="180" width="390" height="40" rx="18" fill="#2d1b4e"/>
-    <text class="text" x="48" y="205">RAG · Stable Diffusion · RL · Bitcoin Systems</text>
+    <rect x="28" y="186" width="560" height="58" rx="18" fill="#2d1b4e"/>
+    <text class="text" x="48" y="210">RAG · Agentic AI · MCP · AI Governance Platform</text>
+    <text class="text" x="48" y="232">Model Security · Edge Optimization · Encrypted AI</text>
   </g>
 
-  <!-- Typing indicator 4 -->
+  <!-- Typing 4 -->
   <g class="typing4">
-    <rect x="28" y="232" width="72" height="34" rx="17" fill="#1e1b2e"/>
-    <circle class="dot1" cx="46" cy="249" r="4" fill="#c084fc"/>
-    <circle class="dot2" cx="60" cy="249" r="4" fill="#c084fc"/>
-    <circle class="dot3" cx="74" cy="249" r="4" fill="#c084fc"/>
+    <rect x="28" y="258" width="72" height="34" rx="17" fill="#1e1b2e"/>
+    <circle class="dot1" cx="46" cy="275" r="4" fill="#c084fc"/>
+    <circle class="dot2" cx="60" cy="275" r="4" fill="#c084fc"/>
+    <circle class="dot3" cx="74" cy="275" r="4" fill="#c084fc"/>
   </g>
 
-  <!-- Bubble 4: MSc -->
+  <!-- Bubble 4: Stable Diffusion / RL / Bitcoin
   <g class="b4">
-    <rect x="28" y="232" width="330" height="40" rx="18" fill="#1e1b2e"/>
-    <text class="text" x="48" y="257">MSc AI Graduate · Published Researcher</text>
-  </g>
+    <rect x="28" y="258" width="400" height="40" rx="18" fill="#1e1b2e"/>
+    <text class="text" x="48" y="283">Stable Diffusion · RL · Bitcoin Systems</text>
+  </g> -->
 
-  <!-- Bubble 5: reach out -->
+  <!-- Bubble 5: Reach out -->
   <g class="b5">
-    <rect x="28" y="284" width="500" height="40" rx="18" fill="#1e1b2e"/>
-    <text class="text" x="48" y="309">reach out via </text>
-    <text class="text-link" x="148" y="309">linkedin.com/in/karanpreet-5ingh</text>
-    <text class="text" x="422" y="309"> or email</text>
+    <rect x="28" y="312" width="560" height="58" rx="18" fill="#1e1b2e"/>
+    <text class="text" x="48" y="336">reach out via </text>
+    <text class="text-link" x="148" y="336">linkedin.com/in/karanpreet-5ingh</text>
+    <text class="text" x="48" y="358">or email: </text>
+    <text class="text-link" x="103" y="358"> dev.karanpreet@gmail.com</text>
   </g>
 
 </svg>
