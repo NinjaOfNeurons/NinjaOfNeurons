@@ -11,7 +11,6 @@ LONGITUDE   = -82.907120
 TIMEZONE    = "America/Panama"  
 # Asia/Calcutta, America/New_York, Europe/London, etc.
 # ──────────────────────────────────────────────────────────────────────────────
-
 QUOTES = [
     "Intelligence is the ability to adapt to change.",
     "The best way to predict the future is to invent it.",
@@ -26,7 +25,7 @@ QUOTES = [
     "The best models are the ones that know their limits.",
     "Agentic AI: from answering questions to taking actions.",
 ]
-
+ 
 WMO_CODES = {
     0:  ("Clear Sky", "☀️"),
     1:  ("Mainly Clear", "🌤️"),
@@ -49,7 +48,7 @@ WMO_CODES = {
     95: ("Thunderstorm", "⛈️"),
     99: ("Thunderstorm", "⛈️"),
 }
-
+ 
 DAY_GREETINGS = {
     0: "Happy Monday",
     1: "Happy Tuesday",
@@ -59,7 +58,7 @@ DAY_GREETINGS = {
     5: "Happy Saturday",
     6: "Happy Sunday",
 }
-
+ 
 def fetch_weather():
     url = (
         f"https://api.open-meteo.com/v1/forecast"
@@ -78,10 +77,10 @@ def fetch_weather():
     except Exception as e:
         print(f"Weather fetch failed: {e}", file=sys.stderr)
         return None, "Unknown", "🌡️"
-
+ 
 def get_quote(day_of_year):
     return QUOTES[day_of_year % len(QUOTES)]
-
+ 
 def wrap_text(text, max_chars):
     """Wrap text into lines of max_chars."""
     words = text.split()
@@ -96,15 +95,17 @@ def wrap_text(text, max_chars):
     if line:
         lines.append(line)
     return lines
-
+ 
 def generate_svg(greeting, city, temp, weather_desc, weather_emoji, quote, updated_str):
-    quote_lines = wrap_text(f'"{quote}"', 52)
+    quote_lines = wrap_text(f'"{quote}"', 36)
     quote_svg = ""
+    total_height = len(quote_lines) * 24
+    start_y = 152 - total_height // 2 + 16
     for i, l in enumerate(quote_lines):
-        quote_svg += f'<text class="quote" x="310" y="{238 + i * 22}">{l}</text>\n    '
-
+        quote_svg += f'<text class="quote" x="465" y="{start_y + i * 24}">{l}</text>\n    '
+ 
     temp_str = f"{temp}°C" if temp is not None else "N/A"
-
+ 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="620" height="320" viewBox="0 0 620 320">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -174,52 +175,53 @@ def generate_svg(greeting, city, temp, weather_desc, weather_emoji, quote, updat
       }}
     </style>
   </defs>
-
+ 
   <!-- Background -->
   <rect width="620" height="320" fill="url(#bg)" rx="16"/>
   <rect width="618" height="318" x="1" y="1" rx="15" fill="none" stroke="#3b0764" stroke-width="1"/>
-
+ 
   <!-- Left panel -->
   <rect x="20" y="20" width="260" height="280" rx="12" fill="url(#card)" opacity="0.6"/>
-
+ 
   <!-- Greeting -->
   <text class="greeting" x="40" y="65">{greeting},</text>
   <text class="greeting" x="40" y="95" fill="#c084fc">Karan ✦</text>
-
+ 
   <!-- Divider -->
   <line x1="40" y1="115" x2="260" y2="115" class="divider"/>
-
+ 
   <!-- Weather block -->
   <text class="label" x="40" y="140">Weather · {city}</text>
   <text class="weather-big" x="40" y="195">{weather_emoji}</text>
   <text class="value" x="95" y="178">{temp_str}</text>
   <text class="weather-desc" x="95" y="198">{weather_desc}</text>
-
+ 
   <!-- Divider -->
   <line x1="40" y1="215" x2="260" y2="215" class="divider"/>
-
+ 
   <!-- Live dot + updated -->
   <circle class="dot" cx="48" cy="240" r="4"/>
   <text class="label" x="62" y="244">Live · Updates Daily</text>
   <text class="updated" x="40" y="272">Last updated: {updated_str}</text>
   <text class="updated" x="40" y="286">github.com/NinjaOfNeurons</text>
-
+ 
   <!-- Vertical divider -->
   <line x1="300" y1="20" x2="300" y2="300" class="divider"/>
-
+ 
   <!-- Right panel - Quote -->
-  <text class="label" x="310" y="55" text-anchor="middle" transform="translate(155,0)">Today's Thought</text>
-  <line x1="320" y1="68" x2="600" y2="68" class="divider"/>
-
+  <text class="label" x="465" y="55" text-anchor="middle">Today's Thought</text>
+  <line x1="320" y1="68" x2="610" y2="68" class="divider"/>
+  <line x1="320" y1="285" x2="610" y2="285" class="divider"/>
+ 
   {quote_svg}
-
+ 
   <!-- Bottom strip -->
   <rect x="20" y="292" width="580" height="1" fill="#3b0764"/>
   <text class="label" x="310" y="310" text-anchor="middle">ML Engineer · RAG · Agentic AI · Edge Intelligence</text>
-
+ 
 </svg>
 """
-
+ 
 def main():
     now = datetime.datetime.utcnow()
     # Use day of week for greeting
@@ -227,13 +229,14 @@ def main():
     quote    = get_quote(now.timetuple().tm_yday)
     temp, weather_desc, weather_emoji = fetch_weather()
     updated  = now.strftime("%b %d, %Y · %H:%M UTC")
-
+ 
     svg = generate_svg(greeting, CITY, temp, weather_desc, weather_emoji, quote, updated)
-
+ 
     with open("dynamic.svg", "w", encoding="utf-8") as f:
         f.write(svg)
-
+ 
     print(f"✓ Generated dynamic.svg — {greeting}, {temp}°C {weather_emoji}, quote #{now.timetuple().tm_yday % len(QUOTES)}")
-
+ 
 if __name__ == "__main__":
     main()
+ 
