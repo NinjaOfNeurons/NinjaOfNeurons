@@ -1,7 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="620" height="320" viewBox="0 0 620 320">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 860 320">
   <defs>
     <style>
-      .bg { fill: #0d1117; }
       .header { font-family: 'Segoe UI', sans-serif; font-size: 20px; font-weight: 700; fill: #ffffff; }
       .role { font-family: 'Segoe UI', sans-serif; font-size: 14px; fill: #e9d5ff; }
       .stat-title { font-family: 'Segoe UI', sans-serif; font-size: 12px; fill: #c084fc; }
@@ -9,44 +8,57 @@
       .paper { font-family: 'Segoe UI', sans-serif; font-size: 13px; fill: #e9d5ff; }
       .num { fill: #c084fc; font-weight: 700; }
       .link { font-family: 'Segoe UI', sans-serif; font-size: 13px; fill: #c084fc; font-weight: 600; }
-      .fade { opacity:0; animation: fadeUp 1s ease forwards; }
-      .p1 { animation-delay: 0.5s; }
-      .p2 { animation-delay: 1.0s; }
-      .p3 { animation-delay: 1.5s; }
-      .p4 { animation-delay: 2.0s; }
-      @keyframes fadeUp { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:translateY(0); } }
+      .fade { opacity:0; animation: fadeUp 1.8s ease forwards; }
+      .p1 { animation-delay: 5.0s; }
+      .p2 { animation-delay: 7.5s; }
+      .p3 { animation-delay: 10.0s; }
+      .p4 { animation-delay: 12.5s; }
+      @keyframes fadeUp {
+        from { opacity:0; transform:translateY(10px); }
+        to   { opacity:1; transform:translateY(0); }
+      }
     </style>
   </defs>
+
   <!-- Background + border -->
-  <rect width="620" height="320" rx="16" fill="#0d1117"/>
-  <rect width="618" height="318" x="1" y="1" rx="15" fill="none" stroke="#3b0764" stroke-width="1"/>
+  <rect width="860" height="320" rx="16" fill="#0d1117"/>
+  <rect width="858" height="318" x="1" y="1" rx="15" fill="none" stroke="#3b0764" stroke-width="1"/>
+
   <!-- Header -->
   <text class="header" x="28" y="42">Google Scholar</text>
   <text class="role" x="28" y="64">Research @ IIC · VectorEdge.io</text>
+
   <!-- Divider -->
-  <line x1="28" y1="76" x2="592" y2="76" stroke="#3b0764" stroke-width="1"/>
+  <line x1="28" y1="76" x2="832" y2="76" stroke="#3b0764" stroke-width="1"/>
+
   <!-- Stat boxes -->
-  <rect x="28" y="88" width="90" height="44" rx="8" fill="#1e1b2e"/>
-  <text class="stat-title" x="38" y="104">Citations</text>
-  <text class="stat-value" x="38" y="122">24</text>
-  <rect x="128" y="88" width="90" height="44" rx="8" fill="#1e1b2e"/>
-  <text class="stat-title" x="138" y="104">h-index</text>
-  <text class="stat-value" x="138" y="122">2</text>
-  <rect x="228" y="88" width="90" height="44" rx="8" fill="#1e1b2e"/>
-  <text class="stat-title" x="238" y="104">i10-index</text>
-  <text class="stat-value" x="238" y="122">1</text>
+  <rect x="28"  y="88" width="110" height="44" rx="8" fill="#1e1b2e"/>
+  <text class="stat-title" x="40"  y="104">Citations</text>
+  <text class="stat-value" x="40"  y="122">24</text>
+
+  <rect x="150" y="88" width="110" height="44" rx="8" fill="#1e1b2e"/>
+  <text class="stat-title" x="162" y="104">h-index</text>
+  <text class="stat-value" x="162" y="122">2</text>
+
+  <rect x="272" y="88" width="110" height="44" rx="8" fill="#1e1b2e"/>
+  <text class="stat-title" x="284" y="104">i10-index</text>
+  <text class="stat-value" x="284" y="122">1</text>
+
   <!-- Divider -->
-  <line x1="28" y1="144" x2="592" y2="144" stroke="#3b0764" stroke-width="1"/>
+  <line x1="28" y1="144" x2="832" y2="144" stroke="#3b0764" stroke-width="1"/>
+
   <!-- Papers -->
-  <text class="paper fade p1" x="28" y="166"><tspan class="num">1.</tspan> Multimodal hate speech event detection (2023) · 17 citations</text>
-  <text class="paper fade p2" x="28" y="190"><tspan class="num">2.</tspan> AI-Driven IRM: Insider risk management (2025) · 7 citations</text>
-  <text class="paper fade p3" x="28" y="214"><tspan class="num">3.</tspan> Decoding Complexity with CHPDA (2025)</text>
-  <text class="paper fade p4" x="28" y="238"><tspan class="num">4.</tspan> LT-EDI-2023: Depression Level Detection in Social Media</text>
+  <text class="paper fade p1" x="28" y="168"><tspan class="num">1.</tspan>  Multimodal hate speech event detection (2023) · 17 citations</text>
+  <text class="paper fade p2" x="28" y="196"><tspan class="num">2.</tspan>  AI-Driven IRM: Insider risk management (2025) · 7 citations</text>
+  <text class="paper fade p3" x="28" y="224"><tspan class="num">3.</tspan>  Decoding Complexity with CHPDA (2025)</text>
+  <text class="paper fade p4" x="28" y="252"><tspan class="num">4.</tspan>  LT-EDI-2023: Depression Level Detection in Social Media</text>
+
   <!-- Divider -->
-  <line x1="28" y1="254" x2="592" y2="254" stroke="#3b0764" stroke-width="1"/>
+  <line x1="28" y1="268" x2="832" y2="268" stroke="#3b0764" stroke-width="1"/>
+
   <!-- Link -->
   <a href="https://scholar.google.com/citations?user=gmjWDxkAAAAJ&amp;hl=en" target="_blank">
-    <rect x="28" y="264" width="234" height="34" rx="10" fill="#1e1b2e"/>
-    <text class="link" x="42" y="286">View Full Google Scholar Profile →</text>
+    <rect x="28" y="278" width="246" height="32" rx="10" fill="#1e1b2e"/>
+    <text class="link" x="42" y="299">View Full Google Scholar Profile →</text>
   </a>
 </svg>
