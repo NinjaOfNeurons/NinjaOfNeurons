@@ -153,7 +153,7 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/scholar.svg?sanitize=true" alt="Google Scholar" />
+<img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/scholar.svg?sanitize=true&v=2" alt="Google Scholar" />
 
 <br/><br/>
 
