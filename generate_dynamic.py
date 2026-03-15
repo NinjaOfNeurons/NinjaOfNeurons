@@ -33,6 +33,7 @@ QUOTES = [
     "When the path disappears, that is usually when the right one appears.",
     "Grace is not earned. That is what makes it grace.",
     "Do good quietly. The right eyes are always watching.",
+    "Learning never exhausts the mind. – Leonardo da Vinci",
     "The deepest roots grow in the darkest seasons.",
 ]
  
