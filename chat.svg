@@ -18,31 +18,34 @@
         fill: #ffffff;
       }
 
-      .b1 { opacity: 0; animation: fadeUp 0.5s ease forwards; animation-delay: 0.3s; }
-      .b2 { opacity: 0; animation: fadeUp 0.5s ease forwards; animation-delay: 1.4s; }
-      .b3 { opacity: 0; animation: fadeUp 0.5s ease forwards; animation-delay: 2.6s; }
-      .b4 { opacity: 0; animation: fadeUp 0.5s ease forwards; animation-delay: 3.8s; }
+      /* Chat bubble fade-in */
+      .b1 { opacity: 0; animation: fadeUp 1.2s ease forwards; animation-delay: 2s; }
+      .b2 { opacity: 0; animation: fadeUp 1.2s ease forwards; animation-delay: 6s; }
+      .b3 { opacity: 0; animation: fadeUp 1.2s ease forwards; animation-delay: 10s; }
+      .b4 { opacity: 0; animation: fadeUp 1.2s ease forwards; animation-delay: 16s; }
 
-      .typing1 { opacity: 0; animation: showHide 1.0s ease forwards; animation-delay: 0.3s; }
-      .typing2 { opacity: 0; animation: showHide 1.0s ease forwards; animation-delay: 1.4s; }
-      .typing3 { opacity: 0; animation: showHide 1.0s ease forwards; animation-delay: 2.6s; }
+      /* Typing indicators */
+      .typing1 { opacity: 0; animation: showHide 4s ease forwards; animation-delay: 0.5s; }
+      .typing2 { opacity: 0; animation: showHide 4s ease forwards; animation-delay: 4s; }
+      .typing3 { opacity: 0; animation: showHide 4s ease forwards; animation-delay: 8s; }
+      .typing4 { opacity: 0; animation: showHide 4s ease forwards; animation-delay: 12s; }
 
-      .dot1 { animation: bounce 0.6s ease infinite; }
-      .dot2 { animation: bounce 0.6s ease infinite; animation-delay: 0.15s; }
-      .dot3 { animation: bounce 0.6s ease infinite; animation-delay: 0.3s; }
+      /* Dots bounce */
+      .dot1 { animation: bounce 0.8s ease infinite; }
+      .dot2 { animation: bounce 0.8s ease infinite; animation-delay: 0.2s; }
+      .dot3 { animation: bounce 0.8s ease infinite; animation-delay: 0.4s; }
 
       @keyframes fadeUp {
         from { opacity: 0; transform: translateY(8px); }
         to   { opacity: 1; transform: translateY(0); }
       }
       @keyframes showHide {
-        0%   { opacity: 1; }
-        85%  { opacity: 1; }
-        100% { opacity: 0; }
+        0%, 90% { opacity: 1; }
+        100%    { opacity: 0; }
       }
       @keyframes bounce {
         0%, 100% { transform: translateY(0); }
-        50%      { transform: translateY(-4px); }
+        50%      { transform: translateY(-3px); }
       }
     </style>
   </defs>
@@ -95,6 +98,14 @@
     <rect x="28" y="186" width="560" height="58" rx="18" fill="#2d1b4e"/>
     <text class="text" x="48" y="210">RAG · Agentic AI · MCP · AI Governance Platform</text>
     <text class="text" x="48" y="232">Model Security · Edge Optimization · Encrypted AI</text>
+  </g>
+
+  <!-- Typing 4 -->
+  <g class="typing4">
+    <rect x="28" y="260" width="72" height="34" rx="17" fill="#1e1b2e"/>
+    <circle class="dot1" cx="46" cy="277" r="4" fill="#c084fc"/>
+    <circle class="dot2" cx="60" cy="277" r="4" fill="#c084fc"/>
+    <circle class="dot3" cx="74" cy="277" r="4" fill="#c084fc"/>
   </g>
 
   <!-- Bubble 4: Reach out -->
