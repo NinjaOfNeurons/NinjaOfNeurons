@@ -8,12 +8,18 @@
 
 <br/>
 
+[![](https://github.com/NinjaOfNeurons/NinjaOfNeurons/blob/main/chat.svg)](https://www.linkedin.com/in/karanpreet-5ingh)
+
+</div>
+
+<br/>
+
 <div align="center">
 
 ```
 ╔══════════════════════════════════════════════════════╗
-║   ML Engineer @ Vector Edge  ·  MSc AI Graduate      ║
-║   Stable Diffusion  ·  RL  ·  Bitcoin Systems        ║
+║   ML Engineer @ Vector Edge  ·  MSc AI Graduate     ║
+║   Stable Diffusion  ·  RL  ·  Bitcoin Systems       ║
 ║   Research → Production · Edge Intelligence          ║
 ╚══════════════════════════════════════════════════════╝
 ```
