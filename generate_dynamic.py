@@ -11,19 +11,29 @@ LONGITUDE   = -82.907120
 TIMEZONE    = "America/Panama"  
 # Asia/Calcutta, America/New_York, Europe/London, etc.
 # ──────────────────────────────────────────────────────────────────────────────
+
+
 QUOTES = [
-    "Intelligence is the ability to adapt to change.",
-    "The best way to predict the future is to invent it.",
-    "Data is the new oil. AI is the refinery.",
-    "Build systems that think, then think about what you built.",
-    "Research without production is just theory.",
-    "Security is not a feature. It's a foundation.",
-    "Edge computing: bringing intelligence closer to reality.",
-    "A model is only as good as the data it learns from.",
-    "Encrypt everything. Trust nothing. Verify always.",
-    "RAG: giving AI the memory it was never born with.",
-    "The best models are the ones that know their limits.",
-    "Agentic AI: from answering questions to taking actions.",
+    "When you surrender control, you discover something greater was already in control.",
+    "The hand that holds the universe can surely hold your problems.",
+    "You were not given this life to figure it out alone.",
+    "Every closed door was protection. Every open door was provision.",
+    "Faith is not the absence of fear. It is moving forward despite it.",
+    "The one who made you has not forgotten you.",
+    "What looks like delay from your side looks like preparation from the other.",
+    "You cannot see the whole staircase. Take the next step anyway.",
+    "Nothing built on truth ever truly falls. It only transforms.",
+    "The season that feels like an ending is often a beginning in disguise.",
+    "Give your best and release the rest. That is the whole strategy.",
+    "Rest in knowing that what is meant for you will not pass you.",
+    "Worry is a prayer for what you do not want. Choose differently.",
+    "Every burden you carry alone was meant to be laid down.",
+    "There is a plan for your life bigger than your plan for your life.",
+    "Be still. Not every battle requires your hands.",
+    "When the path disappears, that is usually when the right one appears.",
+    "Grace is not earned. That is what makes it grace.",
+    "Do good quietly. The right eyes are always watching.",
+    "The deepest roots grow in the darkest seasons.",
 ]
  
 WMO_CODES = {
