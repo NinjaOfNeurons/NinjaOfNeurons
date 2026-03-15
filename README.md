@@ -2,13 +2,17 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b0764,50:6b21a8,100:3b0764&height=200&section=header&text=Karanpreet%20Singh&fontSize=54&fontColor=ffffff&fontAlignY=38&desc=Machine%20Learning%20Engineer%20%C2%B7%20Product%20Lead%20%C2%B7%20AI%20Explorer&descAlignY=58&descSize=16&descColor=e9d5ff" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=3000&pause=800&color=C084FC&center=true&vCenter=true&width=700&lines=Building+AI+Systems+at+the+Edge+%E2%86%92+Production;RAG+%7C+Stable+Diffusion+%7C+Reinforcement+Learning;Research+%2B+Engineering+%2B+Security+%2B+Bitcoin;Transforming+Ideas+Into+Intelligence" alt="Typing SVG" />
-
 </div>
 
 <br/>
 
 [![](https://github.com/NinjaOfNeurons/NinjaOfNeurons/blob/main/chat.svg)](https://www.linkedin.com/in/karanpreet-5ingh)
+
+<br/>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/dynamic.svg" alt="Dynamic Profile Card" />
+</div>
 
 ---
 

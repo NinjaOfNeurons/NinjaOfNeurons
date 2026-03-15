@@ -51,7 +51,7 @@
   <rect width="620" height="380" fill="#0d1117" rx="16"/>
 
   <!-- Header -->
-  <text class="hi" x="28" y="44">Hi there 👋</text>
+  <text class="hi" x="28" y="44">Hi there!</text>
 
   <!-- Typing 1 -->
   <g class="typing1">
@@ -63,8 +63,8 @@
 
   <!-- Bubble 1: Intro -->
   <g class="b1">
-    <rect x="28" y="62" width="290" height="40" rx="18" fill="#1e1b2e"/>
-    <text class="text" x="48" y="87">Hi, I'm Karanpreet Singh </text>
+    <rect x="28" y="62" width="220" height="40" rx="18" fill="#1e1b2e"/>
+    <text class="text" x="48" y="87">Hey, glad you stopped by 👋</text>
   </g>
 
   <!-- Typing 2 -->
@@ -78,7 +78,7 @@
   <!-- Bubble 2: Role -->
   <g class="b2">
     <rect x="28" y="116" width="450" height="56" rx="18" fill="#1e1b2e"/>
-    <text class="text" x="48" y="139">ML Engineer @ VectorEdge · MSc Informatics Graduate</text>
+    <text class="text" x="48" y="139">ML Engineer @ VectorEdge · MSc AI Graduate</text>
     <text class="text" x="48" y="161">Building AI systems from research → production</text>
   </g>
 
