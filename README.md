@@ -12,22 +12,6 @@
 
 </div>
 
-<br/>
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════╗
-║   ML Engineer @ Vector Edge  ·  MSc AI Graduate     ║
-║   Stable Diffusion  ·  RL  ·  Bitcoin Systems       ║
-║   Research → Production · Edge Intelligence          ║
-╚══════════════════════════════════════════════════════╝
-```
-
-</div>
-
-<br/>
-
 ---
 
 ## Currently Building
@@ -165,11 +149,11 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 <br/>
 
-<div align="center">
+<!-- <div align="center">
 
 <img src="https://github-profile-trophy.vercel.app/?username=NinjaOfNeurons&theme=onestar&no-frame=true&column=6&margin-w=8&no-bg=true" width="95%" />
 
-</div>
+</div> -->
 
 ---
 
