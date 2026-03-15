@@ -11,7 +11,7 @@
 <br/>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/dynamic.svg" alt="Dynamic Profile Card" />
+<img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/dynamic.svg?sanitize=true" alt="Dynamic Profile Card" />
 </div>
 
 ---
