@@ -1,34 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 860 320">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 860 340">
   <defs>
     <style>
       .header { font-family: 'Segoe UI', sans-serif; font-size: 20px; font-weight: 700; fill: #ffffff; }
-      .role { font-family: 'Segoe UI', sans-serif; font-size: 14px; fill: #e9d5ff; }
+      .role   { font-family: 'Segoe UI', sans-serif; font-size: 14px; fill: #e9d5ff; }
       .stat-title { font-family: 'Segoe UI', sans-serif; font-size: 12px; fill: #c084fc; }
       .stat-value { font-family: 'Segoe UI', sans-serif; font-size: 16px; fill: #ffffff; font-weight: 600; }
-      .paper { font-family: 'Segoe UI', sans-serif; font-size: 13px; fill: #e9d5ff; }
-      .num { fill: #c084fc; font-weight: 700; }
-      .link { font-family: 'Segoe UI', sans-serif; font-size: 13px; fill: #c084fc; font-weight: 600; }
-      .fade { opacity:0; animation: fadeUp 1.8s ease forwards; }
-      .p1 { animation-delay: 5.0s; }
-      .p2 { animation-delay: 7.5s; }
-      .p3 { animation-delay: 10.0s; }
-      .p4 { animation-delay: 12.5s; }
+      .paper  { font-family: 'Courier New', monospace; font-size: 13px; fill: #e9d5ff; }
+      .num    { fill: #c084fc; font-weight: 700; }
+      .link   { font-family: 'Segoe UI', sans-serif; font-size: 13px; fill: #c084fc; font-weight: 600; }
+
+      /* Paper fade-ins — slow, spaced out */
+      .p1 { opacity:0; animation: fadeUp 1.6s ease forwards; animation-delay: 5s; }
+      .p2 { opacity:0; animation: fadeUp 1.6s ease forwards; animation-delay: 9s; }
+      .p3 { opacity:0; animation: fadeUp 1.6s ease forwards; animation-delay: 13s; }
+      .p4 { opacity:0; animation: fadeUp 1.6s ease forwards; animation-delay: 17s; }
+
+      /* Typing cursors — blink just before each paper */
+      .cur1 { opacity:0; animation: cursorLife 3.5s ease forwards; animation-delay: 3s; }
+      .cur2 { opacity:0; animation: cursorLife 3.5s ease forwards; animation-delay: 7s; }
+      .cur3 { opacity:0; animation: cursorLife 3.5s ease forwards; animation-delay: 11s; }
+      .cur4 { opacity:0; animation: cursorLife 3.5s ease forwards; animation-delay: 15s; }
+
+      /* Dots loader between papers */
+      .dots1 { opacity:0; animation: dotsLife 3.5s ease forwards; animation-delay: 3s; }
+      .dots2 { opacity:0; animation: dotsLife 3.5s ease forwards; animation-delay: 7s; }
+      .dots3 { opacity:0; animation: dotsLife 3.5s ease forwards; animation-delay: 11s; }
+      .dots4 { opacity:0; animation: dotsLife 3.5s ease forwards; animation-delay: 15s; }
+
+      .dot-a { animation: bounce 0.7s ease infinite; }
+      .dot-b { animation: bounce 0.7s ease infinite; animation-delay: 0.15s; }
+      .dot-c { animation: bounce 0.7s ease infinite; animation-delay: 0.3s; }
+
       @keyframes fadeUp {
-        from { opacity:0; transform:translateY(10px); }
+        from { opacity:0; transform:translateY(8px); }
         to   { opacity:1; transform:translateY(0); }
+      }
+      @keyframes cursorLife {
+        0%   { opacity:1; }
+        80%  { opacity:1; }
+        100% { opacity:0; }
+      }
+      @keyframes dotsLife {
+        0%   { opacity:1; }
+        80%  { opacity:1; }
+        100% { opacity:0; }
+      }
+      @keyframes blink {
+        0%, 100% { opacity:1; }
+        50%      { opacity:0; }
+      }
+      @keyframes bounce {
+        0%, 100% { transform: translateY(0); }
+        50%      { transform: translateY(-5px); }
       }
     </style>
   </defs>
 
   <!-- Background + border -->
-  <rect width="860" height="320" rx="16" fill="#0d1117"/>
-  <rect width="858" height="318" x="1" y="1" rx="15" fill="none" stroke="#3b0764" stroke-width="1"/>
+  <rect width="860" height="340" rx="16" fill="#0d1117"/>
+  <rect width="858" height="338" x="1" y="1" rx="15" fill="none" stroke="#3b0764" stroke-width="1"/>
 
   <!-- Header -->
   <text class="header" x="28" y="42">Google Scholar</text>
-  <text class="role" x="28" y="64">Research @ IIC · VectorEdge.io</text>
-
-  <!-- Divider -->
+  <text class="role"   x="28" y="64">Research @ IIC · VectorEdge.io</text>
   <line x1="28" y1="76" x2="832" y2="76" stroke="#3b0764" stroke-width="1"/>
 
   <!-- Stat boxes -->
@@ -44,21 +78,67 @@
   <text class="stat-title" x="284" y="104">i10-index</text>
   <text class="stat-value" x="284" y="122">1</text>
 
-  <!-- Divider -->
   <line x1="28" y1="144" x2="832" y2="144" stroke="#3b0764" stroke-width="1"/>
 
-  <!-- Papers -->
-  <text class="paper fade p1" x="28" y="168"><tspan class="num">1.</tspan>  Multimodal hate speech event detection (2023) · 17 citations</text>
-  <text class="paper fade p2" x="28" y="196"><tspan class="num">2.</tspan>  AI-Driven IRM: Insider risk management (2025) · 7 citations</text>
-  <text class="paper fade p3" x="28" y="224"><tspan class="num">3.</tspan>  Decoding Complexity with CHPDA (2025)</text>
-  <text class="paper fade p4" x="28" y="252"><tspan class="num">4.</tspan>  LT-EDI-2023: Depression Level Detection in Social Media</text>
+  <!-- ── Paper 1 ── -->
+  <!-- Loading dots before paper 1 -->
+  <g class="dots1">
+    <circle class="dot-a" cx="38"  cy="168" r="4" fill="#7c3aed"/>
+    <circle class="dot-b" cx="52"  cy="168" r="4" fill="#7c3aed"/>
+    <circle class="dot-c" cx="66"  cy="168" r="4" fill="#7c3aed"/>
+  </g>
+  <!-- Cursor before paper 1 -->
+  <rect class="cur1" x="28" y="156" width="3" height="18" rx="1" fill="#c084fc">
+    <animate attributeName="opacity" values="1;0;1" dur="0.6s" repeatCount="indefinite"/>
+  </rect>
+  <text class="paper p1" x="28" y="170">
+    <tspan class="num">1.</tspan>  Multimodal hate speech event detection (2023) · 17 citations
+  </text>
 
-  <!-- Divider -->
-  <line x1="28" y1="268" x2="832" y2="268" stroke="#3b0764" stroke-width="1"/>
+  <!-- ── Paper 2 ── -->
+  <g class="dots2">
+    <circle class="dot-a" cx="38"  cy="198" r="4" fill="#7c3aed"/>
+    <circle class="dot-b" cx="52"  cy="198" r="4" fill="#7c3aed"/>
+    <circle class="dot-c" cx="66"  cy="198" r="4" fill="#7c3aed"/>
+  </g>
+  <rect class="cur2" x="28" y="186" width="3" height="18" rx="1" fill="#c084fc">
+    <animate attributeName="opacity" values="1;0;1" dur="0.6s" repeatCount="indefinite"/>
+  </rect>
+  <text class="paper p2" x="28" y="200">
+    <tspan class="num">2.</tspan>  AI-Driven IRM: Insider risk management (2025) · 7 citations
+  </text>
 
-  <!-- Link -->
+  <!-- ── Paper 3 ── -->
+  <g class="dots3">
+    <circle class="dot-a" cx="38"  cy="228" r="4" fill="#7c3aed"/>
+    <circle class="dot-b" cx="52"  cy="228" r="4" fill="#7c3aed"/>
+    <circle class="dot-c" cx="66"  cy="228" r="4" fill="#7c3aed"/>
+  </g>
+  <rect class="cur3" x="28" y="216" width="3" height="18" rx="1" fill="#c084fc">
+    <animate attributeName="opacity" values="1;0;1" dur="0.6s" repeatCount="indefinite"/>
+  </rect>
+  <text class="paper p3" x="28" y="230">
+    <tspan class="num">3.</tspan>  Decoding Complexity with CHPDA (2025)
+  </text>
+
+  <!-- ── Paper 4 ── -->
+  <g class="dots4">
+    <circle class="dot-a" cx="38"  cy="258" r="4" fill="#7c3aed"/>
+    <circle class="dot-b" cx="52"  cy="258" r="4" fill="#7c3aed"/>
+    <circle class="dot-c" cx="66"  cy="258" r="4" fill="#7c3aed"/>
+  </g>
+  <rect class="cur4" x="28" y="246" width="3" height="18" rx="1" fill="#c084fc">
+    <animate attributeName="opacity" values="1;0;1" dur="0.6s" repeatCount="indefinite"/>
+  </rect>
+  <text class="paper p4" x="28" y="260">
+    <tspan class="num">4.</tspan>  LT-EDI-2023: Depression Level Detection in Social Media
+  </text>
+
+  <!-- Bottom -->
+  <line x1="28" y1="278" x2="832" y2="278" stroke="#3b0764" stroke-width="1"/>
   <a href="https://scholar.google.com/citations?user=gmjWDxkAAAAJ&amp;hl=en" target="_blank">
-    <rect x="28" y="278" width="246" height="32" rx="10" fill="#1e1b2e"/>
-    <text class="link" x="42" y="299">View Full Google Scholar Profile →</text>
+    <rect x="28" y="288" width="246" height="32" rx="10" fill="#1e1b2e"/>
+    <text class="link" x="42" y="309">View Full Google Scholar Profile →</text>
   </a>
+
 </svg>
