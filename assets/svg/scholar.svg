@@ -136,9 +136,7 @@
 
   <!-- Bottom -->
   <line x1="28" y1="290" x2="832" y2="290" stroke="#3b0764" stroke-width="1"/>
-  <a href="https://scholar.google.com/citations?user=gmjWDxkAAAAJ&amp;hl=en" target="_blank">
-    <rect x="28" y="304" width="246" height="38" rx="10" fill="#1e1b2e"/>
-    <text class="link" x="42" y="328">View Full Google Scholar Profile →</text>
-  </a>
+  <rect x="28" y="304" width="246" height="38" rx="10" fill="#1e1b2e"/>
+  <text class="link" x="42" y="328">View Full Google Scholar Profile →</text>
 
 </svg>
