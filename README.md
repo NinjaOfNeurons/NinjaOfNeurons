@@ -6,12 +6,12 @@
 
 <br/>
 
-[![](https://github.com/NinjaOfNeurons/NinjaOfNeurons/blob/main/chat.svg)](https://www.linkedin.com/in/karanpreet-5ingh)
+[![](https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/chat.svg)](https://www.linkedin.com/in/karanpreet-5ingh)
 
 <br/>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/dynamic.svg?sanitize=true" alt="Dynamic Profile Card" />
+<img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/dynamic.svg?sanitize=true" alt="Dynamic Profile Card" />
 </div>
 
 ---
@@ -153,7 +153,7 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 <div align="center">
 
-[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-View%20Publications-c084fc?style=for-the-badge&logo=googlescholar&logoColor=white&labelColor=1e1b2e)](https://scholar.google.com/citations?user=gmjWDxkAAAAJ&hl=en)
+<img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/scholar.svg?sanitize=true" alt="Google Scholar" />
 
 <br/><br/>
 
