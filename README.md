@@ -10,8 +10,6 @@
 
 [![](https://github.com/NinjaOfNeurons/NinjaOfNeurons/blob/main/chat.svg)](https://www.linkedin.com/in/karanpreet-5ingh)
 
-</div>
-
 ---
 
 ## Currently Building
@@ -142,36 +140,18 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 <br/>
 
 <div align="center">
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=NinjaOfNeurons&bg_color=0d1117&color=c084fc&line=7c3aed&point=e9d5ff&area=true&hide_border=true&area_color=3b0764" width="95%" />
-
 </div>
-
-<br/>
-
-<!-- <div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=NinjaOfNeurons&theme=onestar&no-frame=true&column=6&margin-w=8&no-bg=true" width="95%" />
-
-</div> -->
 
 ---
 
-## Research
+## Research & Certifications
 
 <div align="center">
 
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-View%20Publications-c084fc?style=for-the-badge&logo=googlescholar&logoColor=white&labelColor=1e1b2e)](https://scholar.google.com/citations?user=gmjWDxkAAAAJ&hl=en)
 
-</div>
-
----
-
-## Certifications
-
-<div align="center">
-
-<br/>
+<br/><br/>
 
 <table border="0" cellspacing="0" cellpadding="20">
   <tr>
@@ -209,18 +189,6 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 ▸  Frontier      →  AI × Security × Edge Intelligence
 ▸  Web3          →  Deep dive into Bitcoin infra & decentralized systems
 ```
-
----
-
-## Connect
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-1e1b2e?style=for-the-badge&logo=linkedin&logoColor=c084fc)](https://www.linkedin.com/in/karanpreet-5ingh)
-[![Email](https://img.shields.io/badge/Email-1e1b2e?style=for-the-badge&logo=gmail&logoColor=c084fc)](mailto:dev.karanpreet@gmail.com)
-[![Google Scholar](https://img.shields.io/badge/Scholar-1e1b2e?style=for-the-badge&logo=googlescholar&logoColor=c084fc)](https://scholar.google.com/citations?user=gmjWDxkAAAAJ&hl=en)
-
-</div>
 
 ---
 
