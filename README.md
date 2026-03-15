@@ -6,7 +6,9 @@
 
 <br/>
 
-[![](https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/chat.svg)](https://www.linkedin.com/in/karanpreet-5ingh)
+<a href="https://www.linkedin.com/in/karanpreet-5ingh" target="_blank">
+  <img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/chat.svg" />
+</a>
 
 <br/>
 
@@ -114,16 +116,16 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 **RAG & Vector Intelligence**
 
-![LangChain](https://img.shields.io/badge/LangChain-1e1b2e?style=flat-square&logo=chainlink&logoColor=c084fc)
-![LangGraph](https://img.shields.io/badge/LangGraph-1e1b2e?style=flat-square&logo=graphql&logoColor=c084fc)
-![LlamaIndex](https://img.shields.io/badge/LlamaIndex-1e1b2e?style=flat-square&logo=llama&logoColor=c084fc)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-1e1b2e?style=flat-square&logo=databricks&logoColor=c084fc)
-![FAISS](https://img.shields.io/badge/FAISS-1e1b2e?style=flat-square&logo=meta&logoColor=c084fc)
-![RAG](https://img.shields.io/badge/Retrieval--Augmented%20Generation-1e1b2e?style=flat-square&logo=searchengin&logoColor=c084fc)
-![Semantic Search](https://img.shields.io/badge/Semantic%20Search-1e1b2e?style=flat-square&logo=elastic&logoColor=c084fc)
-![Vector DB](https://img.shields.io/badge/Vector%20Databases-1e1b2e?style=flat-square&logo=pinecone&logoColor=c084fc)
-![HNSW](https://img.shields.io/badge/HNSW-1e1b2e?style=flat-square&logo=graphql&logoColor=c084fc)
-![Gradio](https://img.shields.io/badge/Gradio-1e1b2e?style=flat-square&logo=gradio&logoColor=c084fc)
+<a href="https://python.langchain.com" target="_blank"><img src="https://img.shields.io/badge/LangChain-1e1b2e?style=flat-square&logo=chainlink&logoColor=c084fc" /></a>
+<a href="https://www.langchain.com/langgraph" target="_blank"><img src="https://img.shields.io/badge/LangGraph-1e1b2e?style=flat-square&logo=graphql&logoColor=c084fc" /></a>
+<a href="https://www.llamaindex.ai" target="_blank"><img src="https://img.shields.io/badge/LlamaIndex-1e1b2e?style=flat-square&logo=llama&logoColor=c084fc" /></a>
+<a href="https://www.trychroma.com" target="_blank"><img src="https://img.shields.io/badge/ChromaDB-1e1b2e?style=flat-square&logo=databricks&logoColor=c084fc" /></a>
+<a href="https://faiss.ai" target="_blank"><img src="https://img.shields.io/badge/FAISS-1e1b2e?style=flat-square&logo=meta&logoColor=c084fc" /></a>
+<a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation" target="_blank"><img src="https://img.shields.io/badge/Retrieval--Augmented%20Generation-1e1b2e?style=flat-square&logo=searchengin&logoColor=c084fc" /></a>
+<a href="https://www.elastic.co/what-is/semantic-search" target="_blank"><img src="https://img.shields.io/badge/Semantic%20Search-1e1b2e?style=flat-square&logo=elastic&logoColor=c084fc" /></a>
+<a href="https://www.pinecone.io/learn/vector-database" target="_blank"><img src="https://img.shields.io/badge/Vector%20Databases-1e1b2e?style=flat-square&logo=pinecone&logoColor=c084fc" /></a>
+<a href="https://en.wikipedia.org/wiki/Hierarchical_navigable_small_world" target="_blank"><img src="https://img.shields.io/badge/HNSW-1e1b2e?style=flat-square&logo=graphql&logoColor=c084fc" /></a>
+<a href="https://www.gradio.app" target="_blank"><img src="https://img.shields.io/badge/Gradio-1e1b2e?style=flat-square&logo=gradio&logoColor=c084fc" /></a>
 
 <br/>
 
@@ -154,7 +156,7 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 <div align="center">
 
 <a href="https://scholar.google.com/citations?user=gmjWDxkAAAAJ&hl=en" target="_blank">
-<img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/scholar.svg?sanitize=true&v=3" alt="Google Scholar" />
+  <img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/scholar.svg?sanitize=true&v=3" alt="Google Scholar" />
 </a>
 
 <br/><br/>
