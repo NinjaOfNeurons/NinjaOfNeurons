@@ -46,48 +46,77 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 <br/>
 
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-1e1b2e?style=flat-square&logo=python&logoColor=c084fc)
-![C++](https://img.shields.io/badge/C++-1e1b2e?style=flat-square&logo=cplusplus&logoColor=c084fc)
-![C](https://img.shields.io/badge/C-1e1b2e?style=flat-square&logo=c&logoColor=c084fc)
-![SQL](https://img.shields.io/badge/SQL-1e1b2e?style=flat-square&logo=postgresql&logoColor=c084fc)
-
-<br/>
-
-**AI / ML**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-1e1b2e?style=flat-square&logo=pytorch&logoColor=c084fc)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-1e1b2e?style=flat-square&logo=tensorflow&logoColor=c084fc)
-![Scikit--Learn](https://img.shields.io/badge/Scikit--Learn-1e1b2e?style=flat-square&logo=scikitlearn&logoColor=c084fc)
-![OpenCV](https://img.shields.io/badge/OpenCV-1e1b2e?style=flat-square&logo=opencv&logoColor=c084fc)
-![Pandas](https://img.shields.io/badge/Pandas-1e1b2e?style=flat-square&logo=pandas&logoColor=c084fc)
-
-<br/>
-
-**DevOps / Cloud**
-
-![Docker](https://img.shields.io/badge/Docker-1e1b2e?style=flat-square&logo=docker&logoColor=c084fc)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-1e1b2e?style=flat-square&logo=kubernetes&logoColor=c084fc)
-![AWS](https://img.shields.io/badge/AWS-1e1b2e?style=flat-square&logo=amazonwebservices&logoColor=c084fc)
-![GCP](https://img.shields.io/badge/GCP-1e1b2e?style=flat-square&logo=googlecloud&logoColor=c084fc)
-![Jenkins](https://img.shields.io/badge/Jenkins-1e1b2e?style=flat-square&logo=jenkins&logoColor=c084fc)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-1e1b2e?style=flat-square&logo=githubactions&logoColor=c084fc)
-![Prometheus](https://img.shields.io/badge/Prometheus-1e1b2e?style=flat-square&logo=prometheus&logoColor=c084fc)
-![Grafana](https://img.shields.io/badge/Grafana-1e1b2e?style=flat-square&logo=grafana&logoColor=c084fc)
-![Linux](https://img.shields.io/badge/Linux-1e1b2e?style=flat-square&logo=linux&logoColor=c084fc)
-![Git](https://img.shields.io/badge/Git-1e1b2e?style=flat-square&logo=git&logoColor=c084fc)
-
-<br/>
-
-**Frameworks & APIs**
-
-![Flask](https://img.shields.io/badge/Flask-1e1b2e?style=flat-square&logo=flask&logoColor=c084fc)
-![Django](https://img.shields.io/badge/Django-1e1b2e?style=flat-square&logo=django&logoColor=c084fc)
-![FastAPI](https://img.shields.io/badge/FastAPI-1e1b2e?style=flat-square&logo=fastapi&logoColor=c084fc)
-![Gradio](https://img.shields.io/badge/Gradio-1e1b2e?style=flat-square&logo=gradio&logoColor=c084fc)
-![Android](https://img.shields.io/badge/Android-1e1b2e?style=flat-square&logo=android&logoColor=c084fc)
-![Arduino](https://img.shields.io/badge/Arduino-1e1b2e?style=flat-square&logo=arduino&logoColor=c084fc)
+<table>
+  <tr>
+    <td align="center" width="90">
+      <img src="https://techstack-generator.vercel.app/python-icon.svg" width="55" height="55" /><br/>Python
+    </td>
+    <td align="center" width="90">
+      <img src="https://techstack-generator.vercel.app/cpp-icon.svg" width="55" height="55" /><br/>C++
+    </td>
+    <td align="center" width="90">
+      <img src="https://techstack-generator.vercel.app/aws-icon.svg" width="55" height="55" /><br/>AWS
+    </td>
+    <td align="center" width="90">
+      <img src="https://techstack-generator.vercel.app/docker-icon.svg" width="55" height="55" /><br/>Docker
+    </td>
+    <td align="center" width="90">
+      <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" width="55" height="55" /><br/>Kubernetes
+    </td>
+    <td align="center" width="90">
+      <img src="https://techstack-generator.vercel.app/github-icon.svg" width="55" height="55" /><br/>GitHub
+    </td>
+    <td align="center" width="90">
+      <img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="55" height="55" /><br/>SQL
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=pytorch" width="48" height="48" /><br/>PyTorch
+    </td>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=tensorflow" width="48" height="48" /><br/>TensorFlow
+    </td>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=opencv" width="48" height="48" /><br/>OpenCV
+    </td>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=fastapi" width="48" height="48" /><br/>FastAPI
+    </td>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=flask" width="48" height="48" /><br/>Flask
+    </td>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=django" width="48" height="48" /><br/>Django
+    </td>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=gcp" width="48" height="48" /><br/>GCP
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" /><br/>Linux
+    </td>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=git" width="48" height="48" /><br/>Git
+    </td>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=grafana" width="48" height="48" /><br/>Grafana
+    </td>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=prometheus" width="48" height="48" /><br/>Prometheus
+    </td>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=jenkins" width="48" height="48" /><br/>Jenkins
+    </td>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=arduino" width="48" height="48" /><br/>Arduino
+    </td>
+    <td align="center" width="90">
+      <img src="https://skillicons.dev/icons?i=androidstudio" width="48" height="48" /><br/>Android
+    </td>
+  </tr>
+</table>
 
 <br/>
 
@@ -102,6 +131,7 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 ![Semantic Search](https://img.shields.io/badge/Semantic%20Search-1e1b2e?style=flat-square&logo=elastic&logoColor=c084fc)
 ![Vector DB](https://img.shields.io/badge/Vector%20Databases-1e1b2e?style=flat-square&logo=pinecone&logoColor=c084fc)
 ![HNSW](https://img.shields.io/badge/HNSW-1e1b2e?style=flat-square&logo=graphql&logoColor=c084fc)
+![Gradio](https://img.shields.io/badge/Gradio-1e1b2e?style=flat-square&logo=gradio&logoColor=c084fc)
 
 <br/>
 
@@ -116,6 +146,22 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 <img src="https://streak-stats.demolab.com?user=NinjaOfNeurons&theme=transparent&hide_border=false&border=3d2a5e&background=00000000&ring=c084fc&fire=9333ea&currStreakLabel=c084fc&sideLabels=c084fc&dates=8b8fa8&stroke=3d2a5e" height="165" />
 
 <img src="https://github-readme-stats.vercel.app/api?username=NinjaOfNeurons&show_icons=true&hide_border=false&border_color=3d2a5e&theme=transparent&bg_color=00000000&title_color=c084fc&icon_color=9333ea&text_color=e2e8f0" height="165" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=NinjaOfNeurons&bg_color=0d1117&color=c084fc&line=7c3aed&point=e9d5ff&area=true&hide_border=true&area_color=3b0764" width="95%" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=NinjaOfNeurons&theme=onestar&no-frame=true&column=6&margin-w=8&no-bg=true" width="95%" />
 
 </div>
 
@@ -190,6 +236,12 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 <div align="center">
 <img src="https://komarev.com/ghpvc/?username=NinjaOfNeurons&color=9333ea&style=flat-square&label=profile+views" />
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/output/github-contribution-grid-snake-dark.svg" alt="contribution snake" />
 </div>
 
 <br/>
