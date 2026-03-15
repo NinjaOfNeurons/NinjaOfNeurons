@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="320" viewBox="0 0 620 320">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#1a0533"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1b2e"/>
+      <stop offset="100%" style="stop-color:#2d1b4e"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .greeting {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        font-size: 26px;
+        font-weight: 700;
+        fill: #ffffff;
+      }
+      .label {
+        font-family: 'Courier New', monospace;
+        font-size: 11px;
+        fill: #7c3aed;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+      .value {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        font-size: 15px;
+        fill: #e9d5ff;
+        font-weight: 500;
+      }
+      .weather-big {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        font-size: 42px;
+      }
+      .weather-desc {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        font-size: 13px;
+        fill: #a78bfa;
+      }
+      .quote {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        font-size: 13px;
+        fill: #c084fc;
+        font-style: italic;
+        text-anchor: middle;
+      }
+      .divider {
+        stroke: #3b0764;
+        stroke-width: 1;
+      }
+      .updated {
+        font-family: 'Courier New', monospace;
+        font-size: 10px;
+        fill: #4b3b6b;
+      }
+      .dot {
+        fill: #7c3aed;
+        animation: pulse 2s ease-in-out infinite;
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; r: 4px; }
+        50%       { opacity: 0.4; r: 3px; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="620" height="320" fill="url(#bg)" rx="16"/>
+  <rect width="618" height="318" x="1" y="1" rx="15" fill="none" stroke="#3b0764" stroke-width="1"/>
+
+  <!-- Left panel -->
+  <rect x="20" y="20" width="260" height="280" rx="12" fill="url(#card)" opacity="0.6"/>
+
+  <!-- Greeting -->
+  <text class="greeting" x="40" y="65">Happy Sunday,</text>
+  <text class="greeting" x="40" y="95" fill="#c084fc">Karan ✦</text>
+
+  <!-- Divider -->
+  <line x1="40" y1="115" x2="260" y2="115" class="divider"/>
+
+  <!-- Weather block -->
+  <text class="label" x="40" y="140">Weather · Ohio, USA</text>
+  <text class="weather-big" x="40" y="195">☀️</text>
+  <text class="value" x="95" y="178">20°C</text>
+  <text class="weather-desc" x="95" y="198">Clear Sky</text>
+
+  <!-- Divider -->
+  <line x1="40" y1="215" x2="260" y2="215" class="divider"/>
+
+  <!-- Live dot + updated -->
+  <circle class="dot" cx="48" cy="240" r="4"/>
+  <text class="label" x="62" y="244">Live · Updates Daily</text>
+  <text class="updated" x="40" y="272">Last updated: Mar 15, 2026 · 16:56 UTC</text>
+  <text class="updated" x="40" y="286">github.com/NinjaOfNeurons</text>
+
+  <!-- Vertical divider -->
+  <line x1="300" y1="20" x2="300" y2="300" class="divider"/>
+
+  <!-- Right panel - Quote -->
+  <text class="label" x="310" y="55" text-anchor="middle" transform="translate(155,0)">Today's Thought</text>
+  <line x1="320" y1="68" x2="600" y2="68" class="divider"/>
+
+  <text class="quote" x="310" y="238">"Data is the new oil. AI is the refinery."</text>
+    
+
+  <!-- Bottom strip -->
+  <rect x="20" y="292" width="580" height="1" fill="#3b0764"/>
+  <text class="label" x="310" y="310" text-anchor="middle">ML Engineer · RAG · Agentic AI · Edge Intelligence</text>
+
+</svg>
