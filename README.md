@@ -115,6 +115,7 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 <br/>
 
 **RAG & Vector Intelligence**
+
 <table>
   <tr>
     <td align="center" width="90">
@@ -144,6 +145,7 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 </div>
 
 ---
+
 ## Activity
 
 <div align="center">
@@ -167,7 +169,7 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 <div align="center">
 
 <a href="https://scholar.google.com/citations?user=gmjWDxkAAAAJ&hl=en" target="_blank">
-  <img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/scholar.svg?sanitize=true&v=3" alt="Google Scholar" />
+  <img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/scholar.svg?sanitize=true&v=4" alt="Google Scholar" />
 </a>
 
 <br/><br/>
