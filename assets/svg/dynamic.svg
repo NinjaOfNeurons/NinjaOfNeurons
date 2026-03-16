@@ -93,7 +93,7 @@
   <!-- Live dot + updated -->
   <circle class="dot" cx="48" cy="240" r="4"/>
   <text class="label" x="62" y="244">Live · Updates Daily</text>
-  <text class="updated" x="40" y="272">Last updated: Mar 16, 2026 · 02:22 UTC</text>
+  <text class="updated" x="40" y="272">Last updated: Mar 16, 2026 · 02:29 UTC</text>
   <text class="updated" x="40" y="286">github.com/NinjaOfNeurons</text>
  
   <!-- Vertical divider -->
@@ -104,8 +104,8 @@
   <line x1="320" y1="68" x2="610" y2="68" class="divider"/>
   <line x1="320" y1="285" x2="610" y2="285" class="divider"/>
  
-  <text class="quote" x="465" y="144">"Worry is a prayer for what you do</text>
-    <text class="quote" x="465" y="168">not want. Choose differently."</text>
+  <text class="quote" x="465" y="144">"Innovation grows where curiosity</text>
+    <text class="quote" x="465" y="168">and purpose meet."</text>
     
  
   <!-- Bottom strip -->
