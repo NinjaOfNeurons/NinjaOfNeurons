@@ -112,35 +112,22 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
   </tr>
 </table>
 
+<br/>
+
 **RAG & Vector Intelligence**
 
-<table>
-  <tr>
-    <td align="center" width="90">
-      <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/langchain-color.png" width="48" height="48" /><br/>LangChain
-    </td>
-    <td align="center" width="90">
-      <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/langgraph-color.png" width="48" height="48" /><br/>LangGraph
-    </td>
-    <td align="center" width="90">
-      <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/llamaindex-color.png" width="48" height="48" /><br/>LlamaIndex
-    </td>
-    <td align="center" width="90">
-      <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/gradio-color.png" width="48" height="48" /><br/>Gradio
-    </td>
-    <td align="center" width="90">
-      <img src="https://img.shields.io/badge/-Pinecone-black?style=flat-square&logo=pinecone" /><br/>Pinecone
-    </td>
-    <td align="center" width="90">
-      <img src="https://img.shields.io/badge/-ChromaDB-FF6719?style=flat-square&logo=databricks&logoColor=white" /><br/>ChromaDB
-    </td>
-    <td align="center" width="90">
-      <img src="https://img.shields.io/badge/-FAISS-0467DF?style=flat-square&logo=meta&logoColor=white" /><br/>FAISS
-    </td>
-  </tr>
-</table>
+<a href="https://python.langchain.com" target="_blank"><img src="https://img.shields.io/badge/LangChain-1e1b2e?style=flat-square&logo=chainlink&logoColor=c084fc" /></a>
+<a href="https://www.langchain.com/langgraph" target="_blank"><img src="https://img.shields.io/badge/LangGraph-1e1b2e?style=flat-square&logo=graphql&logoColor=c084fc" /></a>
+<a href="https://www.llamaindex.ai" target="_blank"><img src="https://img.shields.io/badge/LlamaIndex-1e1b2e?style=flat-square&logo=llama&logoColor=c084fc" /></a>
+<a href="https://www.trychroma.com" target="_blank"><img src="https://img.shields.io/badge/ChromaDB-1e1b2e?style=flat-square&logo=databricks&logoColor=c084fc" /></a>
+<a href="https://faiss.ai" target="_blank"><img src="https://img.shields.io/badge/FAISS-1e1b2e?style=flat-square&logo=meta&logoColor=c084fc" /></a>
+<a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation" target="_blank"><img src="https://img.shields.io/badge/Retrieval--Augmented%20Generation-1e1b2e?style=flat-square&logo=searchengin&logoColor=c084fc" /></a>
+<a href="https://www.elastic.co/what-is/semantic-search" target="_blank"><img src="https://img.shields.io/badge/Semantic%20Search-1e1b2e?style=flat-square&logo=elastic&logoColor=c084fc" /></a>
+<a href="https://www.pinecone.io/learn/vector-database" target="_blank"><img src="https://img.shields.io/badge/Vector%20Databases-1e1b2e?style=flat-square&logo=pinecone&logoColor=c084fc" /></a>
+<a href="https://en.wikipedia.org/wiki/Hierarchical_navigable_small_world" target="_blank"><img src="https://img.shields.io/badge/HNSW-1e1b2e?style=flat-square&logo=graphql&logoColor=c084fc" /></a>
+<a href="https://www.gradio.app" target="_blank"><img src="https://img.shields.io/badge/Gradio-1e1b2e?style=flat-square&logo=gradio&logoColor=c084fc" /></a>
 
-
+<br/>
 
 </div>
 
@@ -184,13 +171,22 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
       <sub><b>Advanced RAG with Vector Databases</b></sub><br/>
       <sub>Coursera &nbsp;·&nbsp; Verified on Credly</sub>
     </td>
-    <td width="60"></td>
+    <td width="40"></td>
     <td align="center">
       <a href="https://www.credly.com/badges/ca8d463b-5766-4baf-bf06-1a0d8bf58a12/public_url" target="_blank">
         <img src="assets/badges/ai-agents-cert.png" width="120" />
       </a>
       <br/><br/>
       <sub><b>Fundamentals of Building AI Agents</b></sub><br/>
+      <sub>Coursera &nbsp;·&nbsp; Verified on Credly</sub>
+    </td>
+    <td width="40"></td>
+    <td align="center">
+      <a href="https://www.credly.com/earner/earned/badge/355ea60a-d44c-4cc2-b4c0-e7639d465e3e" target="_blank">
+        <img src="assets/badges/langchain-cert.png" width="120" />
+      </a>
+      <br/><br/>
+      <sub><b>Agentic AI with LangChain and LangGraph</b></sub><br/>
       <sub>Coursera &nbsp;·&nbsp; Verified on Credly</sub>
     </td>
   </tr>
