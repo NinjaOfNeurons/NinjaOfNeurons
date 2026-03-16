@@ -196,7 +196,6 @@ def generate_svg(greeting, city, temp, weather_desc, weather_emoji, quote, updat
  
   <!-- Greeting -->
   <text class="greeting" x="40" y="65">{greeting},</text>
-  <text class="greeting" x="40" y="95" fill="#c084fc">Karan ✦</text>
  
   <!-- Divider -->
   <line x1="40" y1="115" x2="260" y2="115" class="divider"/>
@@ -228,7 +227,7 @@ def generate_svg(greeting, city, temp, weather_desc, weather_emoji, quote, updat
  
   <!-- Bottom strip -->
   <rect x="20" y="292" width="580" height="1" fill="#3b0764"/>
-  <text class="label" x="310" y="310" text-anchor="middle">ML Engineer · RAG · Agentic AI · Edge Intelligence</text>
+  <text class="label" x="310" y="310" text-anchor="middle">Trust me, I read the docs.</text>
  
 </svg>
 """
