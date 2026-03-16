@@ -28,6 +28,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add dynamic.svg
+          git add assets/svg/dynamic.svg
           git diff --staged --quiet || git commit -m "chore: update dynamic SVG [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git push
