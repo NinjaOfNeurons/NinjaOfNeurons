@@ -114,7 +114,6 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 **RAG & Vector Intelligence**
 
----
 <table>
   <tr>
     <td align="center" width="90">
