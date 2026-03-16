@@ -12,9 +12,6 @@
 
 <br/>
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/dynamic.svg?sanitize=true" alt="Dynamic Profile Card" />
-</div>
 
 ---
 
@@ -31,6 +28,59 @@ agentic-ai-lab/       →  Autonomous agents & tool-using AI systems
 rag-insider-risk/         →  RAG pipeline for insider risk intelligence
 model-health-dashboard/   →  AI model drift & reliability monitoring
 ```
+
+---
+
+## Research & Certifications
+
+<div align="center">
+
+<a href="https://scholar.google.com/citations?user=gmjWDxkAAAAJ&hl=en" target="_blank">
+  <img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/scholar.svg?sanitize=true&v=4" alt="Google Scholar" />
+</a>
+
+</div>
+
+---
+
+### Certifications
+
+<div align="center">
+
+<table border="0" cellspacing="0" cellpadding="20">
+  <tr>
+    <td align="center">
+      <a href="https://www.credly.com/badges/487b8d6c-4a04-4049-be2f-515f4e570f15" target="_blank">
+        <img src="assets/badges/rag-cert.png" width="120" />
+      </a>
+      <br/><br/>
+      <sub><b>Advanced RAG with Vector Databases</b></sub><br/>
+      <sub>Coursera &nbsp;·&nbsp; Verified on Credly</sub>
+    </td>
+    <td width="40"></td>
+    <td align="center">
+      <a href="https://www.credly.com/badges/ca8d463b-5766-4baf-bf06-1a0d8bf58a12/public_url" target="_blank">
+        <img src="assets/badges/ai-agents-cert.png" width="120" />
+      </a>
+      <br/><br/>
+      <sub><b>Fundamentals of Building AI Agents</b></sub><br/>
+      <sub>Coursera &nbsp;·&nbsp; Verified on Credly</sub>
+    </td>
+    <td width="40"></td>
+    <td align="center">
+      <a href="https://www.credly.com/earner/earned/badge/355ea60a-d44c-4cc2-b4c0-e7639d465e3e" target="_blank">
+        <img src="assets/badges/langchain-cert.png" width="120" />
+      </a>
+      <br/><br/>
+      <sub><b>Agentic AI with LangChain and LangGraph</b></sub><br/>
+      <sub>Coursera &nbsp;·&nbsp; Verified on Credly</sub>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+</div>
 
 ---
 
@@ -146,6 +196,17 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 ---
 
+## 2026 Vision
+
+```
+▸  Engineering   →  Build production-grade AI systems at scale
+▸  Research      →  Publish impactful applied AI work
+▸  Frontier      →  AI × Security × Edge Intelligence
+▸  Web3          →  Deep dive into Bitcoin infra & decentralized systems
+```
+
+---
+
 ## Activity
 
 <div align="center">
@@ -164,67 +225,16 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 ---
 
-## Research & Certifications
 
-<div align="center">
-
-<a href="https://scholar.google.com/citations?user=gmjWDxkAAAAJ&hl=en" target="_blank">
-  <img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/scholar.svg?sanitize=true&v=4" alt="Google Scholar" />
-</a>
-
-<br/><br/>
-
-<table border="0" cellspacing="0" cellpadding="20">
-  <tr>
-    <td align="center">
-      <a href="https://www.credly.com/badges/487b8d6c-4a04-4049-be2f-515f4e570f15" target="_blank">
-        <img src="assets/badges/rag-cert.png" width="120" />
-      </a>
-      <br/><br/>
-      <sub><b>Advanced RAG with Vector Databases</b></sub><br/>
-      <sub>Coursera &nbsp;·&nbsp; Verified on Credly</sub>
-    </td>
-    <td width="40"></td>
-    <td align="center">
-      <a href="https://www.credly.com/badges/ca8d463b-5766-4baf-bf06-1a0d8bf58a12/public_url" target="_blank">
-        <img src="assets/badges/ai-agents-cert.png" width="120" />
-      </a>
-      <br/><br/>
-      <sub><b>Fundamentals of Building AI Agents</b></sub><br/>
-      <sub>Coursera &nbsp;·&nbsp; Verified on Credly</sub>
-    </td>
-    <td width="40"></td>
-    <td align="center">
-      <a href="https://www.credly.com/earner/earned/badge/355ea60a-d44c-4cc2-b4c0-e7639d465e3e" target="_blank">
-        <img src="assets/badges/langchain-cert.png" width="120" />
-      </a>
-      <br/><br/>
-      <sub><b>Agentic AI with LangChain and LangGraph</b></sub><br/>
-      <sub>Coursera &nbsp;·&nbsp; Verified on Credly</sub>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-</div>
-
----
-
-## 2026 Vision
-
-```
-▸  Engineering   →  Build production-grade AI systems at scale
-▸  Research      →  Publish impactful applied AI work
-▸  Frontier      →  AI × Security × Edge Intelligence
-▸  Web3          →  Deep dive into Bitcoin infra & decentralized systems
-```
-
----
 
 <div align="center">
 <img src="https://komarev.com/ghpvc/?username=NinjaOfNeurons&color=9333ea&style=flat-square&label=profile+views" />
 </div>
+
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/dynamic.svg?sanitize=true" alt="Dynamic Profile Card" />
+</div> 
 
 <br/>
 
@@ -234,4 +244,7 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 <br/>
 
+
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b0764,50:6b21a8,100:3b0764&height=120&section=footer&text=%22Let%27s+connect+and+explore+the+world+of+AI+together.%22&fontSize=13&fontColor=e9d5ff&fontAlignY=65" width="100%" />
+
