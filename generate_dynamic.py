@@ -61,13 +61,13 @@ WMO_CODES = {
 }
  
 DAY_GREETINGS = {
-    0: "Happy Monday",
-    1: "Happy Tuesday",
-    2: "Happy Wednesday",
-    3: "Happy Thursday",
-    4: "Happy Friday",
-    5: "Happy Saturday",
-    6: "Happy Sunday",
+    0: "Moody Monday",
+    1: "Tame Tuesday",
+    2: "Witty Wednesday",
+    3: "Thirsty Thursday",
+    4: "Friyay Friday",
+    5: "Slack Saturday",
+    6: "Slow Sunday",
 }
  
 def fetch_weather():
@@ -195,7 +195,7 @@ def generate_svg(greeting, city, temp, weather_desc, weather_emoji, quote, updat
   <rect x="20" y="20" width="260" height="280" rx="12" fill="url(#card)" opacity="0.6"/>
  
   <!-- Greeting -->
-  <text class="greeting" x="40" y="65">{greeting},</text>
+  <text class="greeting" x="40" y="65">{greeting}</text>
  
   <!-- Divider -->
   <line x1="40" y1="115" x2="260" y2="115" class="divider"/>
@@ -242,7 +242,7 @@ def main():
  
     svg = generate_svg(greeting, CITY, temp, weather_desc, weather_emoji, quote, updated)
  
-    with open("dynamic.svg", "w", encoding="utf-8") as f:
+    with open("assets/svg/dynamic.svg", "w", encoding="utf-8") as f:
         f.write(svg)
  
     print(f"✓ Generated dynamic.svg — {greeting}, {temp}°C {weather_emoji}, quote #{now.timetuple().tm_yday % len(QUOTES)}")
