@@ -31,7 +31,7 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.name "Karanpreet Singh"
-          git config --global user.email "dev.karanpreet@gmial.com"
+          git config --global user.email "dev.karanpreet@gmail.com"
 
           git add assets/svg/dynamic.svg
 
