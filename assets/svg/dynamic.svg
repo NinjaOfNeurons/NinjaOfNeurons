@@ -83,9 +83,9 @@
  
   <!-- Weather block -->
   <text class="label" x="40" y="140">Weather · Ohio, USA</text>
-  <text class="weather-big" x="40" y="195">☀️</text>
-  <text class="value" x="95" y="178">-8°C</text>
-  <text class="weather-desc" x="95" y="198">Clear Sky</text>
+  <text class="weather-big" x="40" y="195">☁️</text>
+  <text class="value" x="95" y="178">-6°C</text>
+  <text class="weather-desc" x="95" y="198">Overcast</text>
  
   <!-- Divider -->
   <line x1="40" y1="215" x2="260" y2="215" class="divider"/>
@@ -93,7 +93,7 @@
   <!-- Live dot + updated -->
   <circle class="dot" cx="48" cy="240" r="4"/>
   <text class="label" x="62" y="244">Live · Updates Daily</text>
-  <text class="updated" x="40" y="272">Last updated: Mar 18, 2026 · 12:06 UTC</text>
+  <text class="updated" x="40" y="272">Last updated: Mar 18, 2026 · 13:18 UTC</text>
   <text class="updated" x="40" y="286">github.com/NinjaOfNeurons</text>
  
   <!-- Vertical divider -->
