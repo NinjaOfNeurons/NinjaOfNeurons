@@ -37,5 +37,5 @@ jobs:
 
           if ! git diff --staged --quiet; then
             git commit -m "chore: update dynamic SVG [$(date -u '+%Y-%m-%d %H:%M UTC')]"
-            git push https://x-access-token:${GH_PAT}@github.com/NinjaOfNeurons/REPO_NAME.git HEAD:main
+            git push https://x-access-token:${GH_PAT}@github.com/NinjaOfNeurons/NinjaOfNeurons.git HEAD:main
           fi
