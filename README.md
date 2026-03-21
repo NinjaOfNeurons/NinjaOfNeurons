@@ -47,33 +47,51 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 <div align="center">
 
-<table border="0" cellspacing="0" cellpadding="20">
+<table border="0" cellspacing="0" cellpadding="16">
   <tr>
     <td align="center">
       <a href="https://www.credly.com/badges/487b8d6c-4a04-4049-be2f-515f4e570f15" target="_blank">
-        <img src="assets/badges/rag-cert.png" width="120" />
+        <img src="assets/badges/rag-cert.png" width="110" />
       </a>
       <br/><br/>
-      <sub><b>Advanced RAG with Vector Databases</b></sub><br/>
-      <sub>Coursera &nbsp;·&nbsp; Verified on Credly</sub>
+      <sub><b>Advanced RAG with<br/>Vector Databases</b></sub><br/>
+      <sub>Coursera · Credly</sub>
     </td>
-    <td width="40"></td>
+    <td width="20"></td>
     <td align="center">
       <a href="https://www.credly.com/badges/ca8d463b-5766-4baf-bf06-1a0d8bf58a12/public_url" target="_blank">
-        <img src="assets/badges/ai-agents-cert.png" width="120" />
+        <img src="assets/badges/ai-agents-cert.png" width="110" />
       </a>
       <br/><br/>
-      <sub><b>Fundamentals of Building AI Agents</b></sub><br/>
-      <sub>Coursera &nbsp;·&nbsp; Verified on Credly</sub>
+      <sub><b>Fundamentals of<br/>Building AI Agents</b></sub><br/>
+      <sub>Coursera · Credly</sub>
     </td>
-    <td width="40"></td>
+    <td width="20"></td>
     <td align="center">
       <a href="https://www.credly.com/earner/earned/badge/355ea60a-d44c-4cc2-b4c0-e7639d465e3e" target="_blank">
-        <img src="assets/badges/langchain-cert.png" width="120" />
+        <img src="assets/badges/langchain-cert.png" width="110" />
       </a>
       <br/><br/>
-      <sub><b>Agentic AI with LangChain and LangGraph</b></sub><br/>
-      <sub>Coursera &nbsp;·&nbsp; Verified on Credly</sub>
+      <sub><b>Agentic AI with<br/>LangChain & LangGraph</b></sub><br/>
+      <sub>Coursera · Credly</sub>
+    </td>
+    <td width="20"></td>
+    <td align="center">
+      <a href="https://www.credly.com/badges/a4b85937-f69b-4066-8023-02c5c87cba4a/public_url" target="_blank">
+        <img src="assets/badges/crewai-cert.png" width="110" />
+      </a>
+      <br/><br/>
+      <sub><b>Agentic AI with LangGraph,<br/>CrewAI, AutoGen & BeeAI</b></sub><br/>
+      <sub>Coursera · Credly</sub>
+    </td>
+    <td width="20"></td>
+    <td align="center">
+      <a href="https://www.credly.com/badges/51431761-8da1-4087-afd6-bdcec6b612b7/public_url" target="_blank">
+        <img src="assets/badges/mcp-cert.png" width="110" />
+      </a>
+      <br/><br/>
+      <sub><b>Build AI Agents<br/>Using MCP</b></sub><br/>
+      <sub>Coursera · Credly</sub>
     </td>
   </tr>
 </table>
@@ -225,16 +243,13 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 ---
 
-
-
 <div align="center">
 <img src="https://komarev.com/ghpvc/?username=NinjaOfNeurons&color=9333ea&style=flat-square&label=profile+views" />
 </div>
 
-
 <div align="center">
 <img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/dynamic.svg?sanitize=true" alt="Dynamic Profile Card" />
-</div> 
+</div>
 
 <br/>
 
@@ -244,7 +259,4 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 <br/>
 
-
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b0764,50:6b21a8,100:3b0764&height=120&section=footer&text=%22Let%27s+connect+and+explore+the+world+of+AI+together.%22&fontSize=13&fontColor=e9d5ff&fontAlignY=65" width="100%" />
-
