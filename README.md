@@ -75,7 +75,7 @@
 
 
 
-## Research & Certifications
+## Research & Certification
 
 <div align="center">
 
