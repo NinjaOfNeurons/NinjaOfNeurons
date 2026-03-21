@@ -2,7 +2,7 @@ name: Generate Dynamic SVG
 
 on:
   schedule:
-    - cron: "0 6 * * *"   # Runs daily at 6am UTC
+    - cron: "0 6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -16,14 +16,14 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          persist-credentials: false   # IMPORTANT
+          persist-credentials: false
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Generate dynamic SVG
+      - name: Generate all SVGs
         run: python generate_dynamic.py
 
       - name: Commit and push if changed
@@ -32,10 +32,8 @@ jobs:
         run: |
           git config --global user.name "Karanpreet Singh"
           git config --global user.email "dev.karanpreet@gmail.com"
-
-          git add assets/svg/dynamic.svg
-
+          git add assets/svg/dynamic.svg assets/svg/chat.svg assets/svg/scholar.svg
           if ! git diff --staged --quiet; then
-            git commit -m "chore: update dynamic SVG [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            git commit -m "chore: daily theme update [$(date -u '+%Y-%m-%d %H:%M UTC')]"
             git push https://x-access-token:${GH_PAT}@github.com/NinjaOfNeurons/NinjaOfNeurons.git HEAD:main
           fi
