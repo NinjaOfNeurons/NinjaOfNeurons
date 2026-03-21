@@ -12,35 +12,6 @@
 
 <br/>
 
-
----
-
-## Currently Building
-
-```
-cli-rag-app/          →  Command-line RAG for intelligent retrieval
-agentic-ai-lab/       →  Autonomous agents & tool-using AI systems
-```
-
-## Upcoming
-
-```
-rag-insider-risk/         →  RAG pipeline for insider risk intelligence
-model-health-dashboard/   →  AI model drift & reliability monitoring
-```
-
----
-
-## Research & Certifications
-
-<div align="center">
-
-<a href="https://scholar.google.com/citations?user=gmjWDxkAAAAJ&hl=en" target="_blank">
-  <img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/scholar.svg?sanitize=true&v=4" alt="Google Scholar" />
-</a>
-
-</div>
-
 ---
 
 ### Certifications
@@ -102,6 +73,37 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 ---
 
+
+
+## Research & Certifications
+
+<div align="center">
+
+<a href="https://scholar.google.com/citations?user=gmjWDxkAAAAJ&hl=en" target="_blank">
+  <img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/scholar.svg?sanitize=true&v=4" alt="Google Scholar" />
+</a>
+
+</div>
+
+---
+
+
+### **Currently Building**
+
+```
+rag-basic-to-advanced/beginner-local-rag-cli/  → Command-line RAG for intelligent retrieval
+agentic-ai-lab/                                → Autonomous agents and tool-using AI systems
+```
+
+### **Upcoming**
+
+```
+rag-anomaly-risk/        → RAG pipeline for anomaly-based risk detection
+model-health-dashboard/  → AI model drift and reliability monitoring
+```
+
+
+---
 ## Tech Stack
 
 <div align="center">
