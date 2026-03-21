@@ -1,125 +1,79 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="620" height="400" viewBox="0 0 620 400">
   <defs>
     <style>
-      .text {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-        font-size: 15px;
-        fill: #e9d5ff;
-      }
-      .hi {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-        font-size: 22px;
-        font-weight: 700;
-        fill: #ffffff;
-      }
-
+      .text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 15px; fill: #e9d5ff; }
+      .hi   { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 22px; font-weight: 700; fill: #ffffff; }
       .b1 { opacity: 0; animation: fadeUp 1.2s ease forwards; animation-delay: 2s; }
       .b2 { opacity: 0; animation: fadeUp 1.2s ease forwards; animation-delay: 6s; }
       .b3 { opacity: 0; animation: fadeUp 1.2s ease forwards; animation-delay: 10s; }
       .b4 { opacity: 0; animation: fadeUp 1.2s ease forwards; animation-delay: 14s; }
       .b5 { opacity: 0; animation: fadeUp 1.2s ease forwards; animation-delay: 18s; }
-
       .typing1 { opacity: 0; animation: showHide 4s ease forwards; animation-delay: 0.5s; }
       .typing2 { opacity: 0; animation: showHide 4s ease forwards; animation-delay: 4s; }
       .typing3 { opacity: 0; animation: showHide 4s ease forwards; animation-delay: 8s; }
       .typing4 { opacity: 0; animation: showHide 4s ease forwards; animation-delay: 12s; }
       .typing5 { opacity: 0; animation: showHide 4s ease forwards; animation-delay: 16s; }
-
       .dot1 { animation: bounce 0.8s ease infinite; }
       .dot2 { animation: bounce 0.8s ease infinite; animation-delay: 0.2s; }
       .dot3 { animation: bounce 0.8s ease infinite; animation-delay: 0.4s; }
-
-      @keyframes fadeUp {
-        from { opacity: 0; transform: translateY(8px); }
-        to   { opacity: 1; transform: translateY(0); }
-      }
-      @keyframes showHide {
-        0%, 90% { opacity: 1; }
-        100%    { opacity: 0; }
-      }
-      @keyframes bounce {
-        0%, 100% { transform: translateY(0); }
-        50%      { transform: translateY(-3px); }
-      }
+      @keyframes fadeUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+      @keyframes showHide { 0%, 90% { opacity: 1; } 100% { opacity: 0; } }
+      @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
     </style>
   </defs>
-
-  <!-- Background -->
   <rect width="620" height="400" fill="#0d1117" rx="16"/>
-
-  <!-- Header -->
   <text class="hi" x="28" y="44">Hi there.</text>
-
-  <!-- Typing 1 -->
   <g class="typing1">
-    <rect x="28" y="58" width="72" height="34" rx="17" fill="#1e1b2e"/>
-    <circle class="dot1" cx="46" cy="75" r="4" fill="#c084fc"/>
-    <circle class="dot2" cx="60" cy="75" r="4" fill="#c084fc"/>
-    <circle class="dot3" cx="74" cy="75" r="4" fill="#c084fc"/>
+    <rect x="28" y="58" width="72" height="34" rx="17" fill="#0f0e24"/>
+    <circle class="dot1" cx="46" cy="75" r="4" fill="#818cf8"/>
+    <circle class="dot2" cx="60" cy="75" r="4" fill="#818cf8"/>
+    <circle class="dot3" cx="74" cy="75" r="4" fill="#818cf8"/>
   </g>
-
-  <!-- Bubble 1 -->
   <g class="b1">
-    <rect x="28" y="58" width="220" height="38" rx="18" fill="#1e1b2e"/>
+    <rect x="28" y="58" width="220" height="38" rx="18" fill="#0f0e24"/>
     <text class="text" x="48" y="82">I'm Karanpreet Singh.</text>
   </g>
-
-  <!-- Typing 2 -->
   <g class="typing2">
-    <rect x="28" y="108" width="72" height="34" rx="17" fill="#1e1b2e"/>
-    <circle class="dot1" cx="46" cy="125" r="4" fill="#c084fc"/>
-    <circle class="dot2" cx="60" cy="125" r="4" fill="#c084fc"/>
-    <circle class="dot3" cx="74" cy="125" r="4" fill="#c084fc"/>
+    <rect x="28" y="108" width="72" height="34" rx="17" fill="#0f0e24"/>
+    <circle class="dot1" cx="46" cy="125" r="4" fill="#818cf8"/>
+    <circle class="dot2" cx="60" cy="125" r="4" fill="#818cf8"/>
+    <circle class="dot3" cx="74" cy="125" r="4" fill="#818cf8"/>
   </g>
-
-  <!-- Bubble 2 -->
   <g class="b2">
-    <rect x="28" y="108" width="540" height="56" rx="18" fill="#1e1b2e"/>
+    <rect x="28" y="108" width="540" height="56" rx="18" fill="#0f0e24"/>
     <text class="text" x="48" y="131">Ex Research Assistant at SMARTH, University of Delhi</text>
-    <text class="text" x="48" y="153">CPS Lab</text>
+    <text class="text" x="48" y="153">CPS Lab — where curiosity met real systems.</text>
   </g>
-
-  <!-- Typing 3 -->
   <g class="typing3">
-    <rect x="28" y="176" width="72" height="34" rx="17" fill="#1e1b2e"/>
-    <circle class="dot1" cx="46" cy="193" r="4" fill="#c084fc"/>
-    <circle class="dot2" cx="60" cy="193" r="4" fill="#c084fc"/>
-    <circle class="dot3" cx="74" cy="193" r="4" fill="#c084fc"/>
+    <rect x="28" y="176" width="72" height="34" rx="17" fill="#0f0e24"/>
+    <circle class="dot1" cx="46" cy="193" r="4" fill="#818cf8"/>
+    <circle class="dot2" cx="60" cy="193" r="4" fill="#818cf8"/>
+    <circle class="dot3" cx="74" cy="193" r="4" fill="#818cf8"/>
   </g>
-
-  <!-- Bubble 3 -->
   <g class="b3">
-    <rect x="28" y="176" width="530" height="38" rx="18" fill="#2d1b4e"/>
-    <text class="text" x="48" y="200">ML Engineer at VectorEdge: building practical AI that ships.</text>
+    <rect x="28" y="176" width="530" height="56" rx="18" fill="#1a1840"/>
+    <text class="text" x="48" y="199">Research · AI Governance · Published Papers</text>
+    <text class="text" x="48" y="221">Google Scholar · Applied NLP · Multimodal AI</text>
   </g>
-
-  <!-- Typing 4 -->
   <g class="typing4">
-    <rect x="28" y="226" width="72" height="34" rx="17" fill="#1e1b2e"/>
-    <circle class="dot1" cx="46" cy="243" r="4" fill="#c084fc"/>
-    <circle class="dot2" cx="60" cy="243" r="4" fill="#c084fc"/>
-    <circle class="dot3" cx="74" cy="243" r="4" fill="#c084fc"/>
+    <rect x="28" y="244" width="72" height="34" rx="17" fill="#0f0e24"/>
+    <circle class="dot1" cx="46" cy="261" r="4" fill="#818cf8"/>
+    <circle class="dot2" cx="60" cy="261" r="4" fill="#818cf8"/>
+    <circle class="dot3" cx="74" cy="261" r="4" fill="#818cf8"/>
   </g>
-
-  <!-- Bubble 4 -->
   <g class="b4">
-    <rect x="28" y="226" width="530" height="38" rx="18" fill="#1e1b2e"/>
-    <text class="text" x="48" y="250">Open source contributor agentic AI and RAG pipelines.</text>
+    <rect x="28" y="244" width="530" height="38" rx="18" fill="#0f0e24"/>
+    <text class="text" x="48" y="268">ML Engineer at VectorEdge — building practical AI that ships.</text>
   </g>
-
-  <!-- Typing 5 -->
   <g class="typing5">
-    <rect x="28" y="276" width="72" height="34" rx="17" fill="#1e1b2e"/>
-    <circle class="dot1" cx="46" cy="293" r="4" fill="#c084fc"/>
-    <circle class="dot2" cx="60" cy="293" r="4" fill="#c084fc"/>
-    <circle class="dot3" cx="74" cy="293" r="4" fill="#c084fc"/>
+    <rect x="28" y="294" width="72" height="34" rx="17" fill="#0f0e24"/>
+    <circle class="dot1" cx="46" cy="311" r="4" fill="#818cf8"/>
+    <circle class="dot2" cx="60" cy="311" r="4" fill="#818cf8"/>
+    <circle class="dot3" cx="74" cy="311" r="4" fill="#818cf8"/>
   </g>
-
-  <!-- Bubble 5 -->
   <g class="b5">
-    <rect x="28" y="276" width="560" height="56" rx="18" fill="#1e1b2e"/>
-    <text class="text" x="48" y="300">Let's build something impactful </text>
-    <text class="text" x="48" y="322">reach out at <tspan fill="#c084fc">dev.karanpreet@gmail.com</tspan></text>
+    <rect x="28" y="294" width="560" height="56" rx="18" fill="#0f0e24"/>
+    <text class="text" x="48" y="318">Let's build something impactful —</text>
+    <text class="text" x="48" y="340">reach out at <tspan fill="#818cf8">dev.karanpreet@gmail.com</tspan></text>
   </g>
-
 </svg>

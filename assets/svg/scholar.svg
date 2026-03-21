@@ -3,119 +3,85 @@
     <style>
       .header     { font-family: 'Segoe UI', sans-serif; font-size: 20px; font-weight: 700; fill: #ffffff; }
       .role       { font-family: 'Segoe UI', sans-serif; font-size: 14px; fill: #e9d5ff; }
-      .stat-title { font-family: 'Segoe UI', sans-serif; font-size: 12px; fill: #c084fc; }
+      .stat-title { font-family: 'Segoe UI', sans-serif; font-size: 12px; fill: #818cf8; }
       .stat-value { font-family: 'Segoe UI', sans-serif; font-size: 16px; fill: #ffffff; font-weight: 600; }
       .paper      { font-family: 'Courier New', monospace; font-size: 13px; fill: #e9d5ff; }
-      .num        { fill: #c084fc; font-weight: 700; }
-      .link       { font-family: 'Segoe UI', sans-serif; font-size: 13px; fill: #c084fc; font-weight: 600; }
+      .num        { fill: #818cf8; font-weight: 700; }
+      .link       { font-family: 'Segoe UI', sans-serif; font-size: 13px; fill: #818cf8; font-weight: 600; }
       .dot-a { animation: bounce 0.7s ease infinite; }
       .dot-b { animation: bounce 0.7s ease infinite; animation-delay: 0.15s; }
       .dot-c { animation: bounce 0.7s ease infinite; animation-delay: 0.30s; }
-      @keyframes bounce {
-        0%, 100% { transform: translateY(0); }
-        50%      { transform: translateY(-5px); }
-      }
+      @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
     </style>
   </defs>
-
-  <!-- Background + border -->
   <rect width="860" height="370" rx="16" fill="#0d1117"/>
-  <rect width="858" height="368" x="1" y="1" rx="15" fill="none" stroke="#3b0764" stroke-width="1"/>
-
-  <!-- Header -->
+  <rect width="858" height="368" x="1" y="1" rx="15" fill="none" stroke="#312e81" stroke-width="1"/>
   <text class="header" x="28" y="42">Google Scholar</text>
   <text class="role"   x="28" y="64">Research @ IIC · VectorEdge.io</text>
-  <line x1="28" y1="76" x2="832" y2="76" stroke="#3b0764" stroke-width="1"/>
-
-  <!-- Stat boxes -->
-  <rect x="28"  y="88" width="110" height="44" rx="8" fill="#1e1b2e"/>
+  <line x1="28" y1="76" x2="832" y2="76" stroke="#312e81" stroke-width="1"/>
+  <rect x="28"  y="88" width="110" height="44" rx="8" fill="#0f0e24"/>
   <text class="stat-title" x="40"  y="104">Citations</text>
   <text class="stat-value" x="40"  y="122">24</text>
-  <rect x="150" y="88" width="110" height="44" rx="8" fill="#1e1b2e"/>
+  <rect x="150" y="88" width="110" height="44" rx="8" fill="#0f0e24"/>
   <text class="stat-title" x="162" y="104">h-index</text>
   <text class="stat-value" x="162" y="122">2</text>
-  <rect x="272" y="88" width="110" height="44" rx="8" fill="#1e1b2e"/>
+  <rect x="272" y="88" width="110" height="44" rx="8" fill="#0f0e24"/>
   <text class="stat-title" x="284" y="104">i10-index</text>
   <text class="stat-value" x="284" y="122">1</text>
-  <line x1="28" y1="144" x2="832" y2="144" stroke="#3b0764" stroke-width="1"/>
-
-  <!-- Total cycle = 28s
-       Dots show:  p1=3s  p2=8s  p3=13s  p4=18s  (each lasts 3.5s)
-       Paper show: p1=6s  p2=11s p3=16s  p4=21s  (fade 1.6s)
-       All fade out at 25s, restart at 28s
-  -->
-
-  <!-- ── DOTS 1 (3s→6.5s) ── -->
+  <line x1="28" y1="144" x2="832" y2="144" stroke="#312e81" stroke-width="1"/>
   <g>
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.107;0.107;0.232;0.232;1" dur="28s" repeatCount="indefinite"/>
-    <circle class="dot-a" cx="38" cy="168" r="4" fill="#7c3aed"/>
-    <circle class="dot-b" cx="52" cy="168" r="4" fill="#7c3aed"/>
-    <circle class="dot-c" cx="66" cy="168" r="4" fill="#7c3aed"/>
+    <circle class="dot-a" cx="38" cy="168" r="4" fill="#4338ca"/>
+    <circle class="dot-b" cx="52" cy="168" r="4" fill="#4338ca"/>
+    <circle class="dot-c" cx="66" cy="168" r="4" fill="#4338ca"/>
   </g>
-  <!-- Cursor 1 (3s→6.5s) -->
-  <rect x="28" y="156" width="3" height="18" rx="1" fill="#c084fc">
+  <rect x="28" y="156" width="3" height="18" rx="1" fill="#818cf8">
     <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;0;0" keyTimes="0;0.107;0.125;0.143;0.161;0.179;0.197;0.215;0.232;1" dur="28s" repeatCount="indefinite"/>
   </rect>
-  <!-- Paper 1 (6s→25s, fade out 25s→26s) -->
   <text class="paper" x="28" y="170">
     <tspan class="num">1.</tspan>  Multimodal hate speech event detection (2023) · 17 citations
     <animate attributeName="opacity" values="0;0;0;1;1;0;0" keyTimes="0;0.214;0.257;0.271;0.893;0.929;1" dur="28s" repeatCount="indefinite"/>
   </text>
-
-  <!-- ── DOTS 2 (8s→11.5s) ── -->
   <g>
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.286;0.286;0.411;0.411;1" dur="28s" repeatCount="indefinite"/>
-    <circle class="dot-a" cx="38" cy="198" r="4" fill="#7c3aed"/>
-    <circle class="dot-b" cx="52" cy="198" r="4" fill="#7c3aed"/>
-    <circle class="dot-c" cx="66" cy="198" r="4" fill="#7c3aed"/>
+    <circle class="dot-a" cx="38" cy="198" r="4" fill="#4338ca"/>
+    <circle class="dot-b" cx="52" cy="198" r="4" fill="#4338ca"/>
+    <circle class="dot-c" cx="66" cy="198" r="4" fill="#4338ca"/>
   </g>
-  <!-- Cursor 2 -->
-  <rect x="28" y="186" width="3" height="18" rx="1" fill="#c084fc">
+  <rect x="28" y="186" width="3" height="18" rx="1" fill="#818cf8">
     <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;0;0" keyTimes="0;0.286;0.304;0.322;0.340;0.358;0.376;0.393;0.411;1" dur="28s" repeatCount="indefinite"/>
   </rect>
-  <!-- Paper 2 (11s→25s) -->
   <text class="paper" x="28" y="200">
     <tspan class="num">2.</tspan>  AI-Driven IRM: Insider risk management (2025) · 7 citations
     <animate attributeName="opacity" values="0;0;0;1;1;0;0" keyTimes="0;0.393;0.436;0.450;0.893;0.929;1" dur="28s" repeatCount="indefinite"/>
   </text>
-
-  <!-- ── DOTS 3 (13s→16.5s) ── -->
   <g>
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.464;0.464;0.589;0.589;1" dur="28s" repeatCount="indefinite"/>
-    <circle class="dot-a" cx="38" cy="228" r="4" fill="#7c3aed"/>
-    <circle class="dot-b" cx="52" cy="228" r="4" fill="#7c3aed"/>
-    <circle class="dot-c" cx="66" cy="228" r="4" fill="#7c3aed"/>
+    <circle class="dot-a" cx="38" cy="228" r="4" fill="#4338ca"/>
+    <circle class="dot-b" cx="52" cy="228" r="4" fill="#4338ca"/>
+    <circle class="dot-c" cx="66" cy="228" r="4" fill="#4338ca"/>
   </g>
-  <!-- Cursor 3 -->
-  <rect x="28" y="216" width="3" height="18" rx="1" fill="#c084fc">
+  <rect x="28" y="216" width="3" height="18" rx="1" fill="#818cf8">
     <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;0;0" keyTimes="0;0.464;0.482;0.500;0.518;0.536;0.554;0.571;0.589;1" dur="28s" repeatCount="indefinite"/>
   </rect>
-  <!-- Paper 3 (16s→25s) -->
   <text class="paper" x="28" y="230">
     <tspan class="num">3.</tspan>  Decoding Complexity with CHPDA (2025)
     <animate attributeName="opacity" values="0;0;0;1;1;0;0" keyTimes="0;0.571;0.614;0.629;0.893;0.929;1" dur="28s" repeatCount="indefinite"/>
   </text>
-
-  <!-- ── DOTS 4 (18s→21.5s) ── -->
   <g>
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.643;0.643;0.768;0.768;1" dur="28s" repeatCount="indefinite"/>
-    <circle class="dot-a" cx="38" cy="258" r="4" fill="#7c3aed"/>
-    <circle class="dot-b" cx="52" cy="258" r="4" fill="#7c3aed"/>
-    <circle class="dot-c" cx="66" cy="258" r="4" fill="#7c3aed"/>
+    <circle class="dot-a" cx="38" cy="258" r="4" fill="#4338ca"/>
+    <circle class="dot-b" cx="52" cy="258" r="4" fill="#4338ca"/>
+    <circle class="dot-c" cx="66" cy="258" r="4" fill="#4338ca"/>
   </g>
-  <!-- Cursor 4 -->
-  <rect x="28" y="246" width="3" height="18" rx="1" fill="#c084fc">
+  <rect x="28" y="246" width="3" height="18" rx="1" fill="#818cf8">
     <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;0;0" keyTimes="0;0.643;0.661;0.679;0.696;0.714;0.732;0.750;0.768;1" dur="28s" repeatCount="indefinite"/>
   </rect>
-  <!-- Paper 4 (21s→25s) -->
   <text class="paper" x="28" y="260">
     <tspan class="num">4.</tspan>  LT-EDI-2023: Depression Level Detection in Social Media
     <animate attributeName="opacity" values="0;0;0;1;1;0;0" keyTimes="0;0.750;0.793;0.807;0.893;0.929;1" dur="28s" repeatCount="indefinite"/>
   </text>
-
-  <!-- Bottom -->
-  <line x1="28" y1="290" x2="832" y2="290" stroke="#3b0764" stroke-width="1"/>
-  <rect x="28" y="304" width="246" height="38" rx="10" fill="#1e1b2e"/>
+  <line x1="28" y1="290" x2="832" y2="290" stroke="#312e81" stroke-width="1"/>
+  <rect x="28" y="304" width="246" height="38" rx="10" fill="#0f0e24"/>
   <text class="link" x="42" y="328">View Full Google Scholar Profile →</text>
-
 </svg>
