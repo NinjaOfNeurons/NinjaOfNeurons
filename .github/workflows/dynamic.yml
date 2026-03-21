@@ -32,7 +32,7 @@ jobs:
         run: |
           git config --global user.name "Karanpreet Singh"
           git config --global user.email "dev.karanpreet@gmail.com"
-          git add assets/svg/dynamic.svg assets/svg/chat.svg assets/svg/scholar.svg
+          git add assets/svg/dynamic.svg assets/svg/chat.svg assets/svg/scholar.svg README.md
           if ! git diff --staged --quiet; then
             git commit -m "chore: daily theme update [$(date -u '+%Y-%m-%d %H:%M UTC')]"
             git push https://x-access-token:${GH_PAT}@github.com/NinjaOfNeurons/NinjaOfNeurons.git HEAD:main
