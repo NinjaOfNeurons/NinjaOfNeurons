@@ -1,16 +1,45 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b0764,50:6b21a8,100:3b0764&height=200&section=header&text=Karanpreet%20Singh&fontSize=54&fontColor=ffffff&fontAlignY=38&desc=Machine%20Learning%20Engineer%20%C2%B7%20Product%20Lead%20%C2%B7%20AI%20Explorer&descAlignY=58&descSize=16&descColor=e9d5ff" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e1b4b,50:3730a3,100:1e1b4b&height=200&section=header&text=Karanpreet%20Singh&fontSize=54&fontColor=ffffff&fontAlignY=38&desc=Machine%20Learning%20Engineer%20%C2%B7%20Product%20Lead%20%C2%B7%20AI%20Explorer&descAlignY=58&descSize=16&descColor=e9d5ff" />
 
 </div>
 
 <br/>
 
 <a href="https://www.linkedin.com/in/karanpreet-5ingh" target="_blank">
-  <img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/chat.svg" />
+  <img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/chat.svg?v=80" />
 </a>
 
 <br/>
+
+
+---
+
+## Currently Building
+
+```
+cli-rag-app/          →  Command-line RAG for intelligent retrieval
+agentic-ai-lab/       →  Autonomous agents & tool-using AI systems
+```
+
+## Upcoming
+
+```
+rag-insider-risk/         →  RAG pipeline for insider risk intelligence
+model-health-dashboard/   →  AI model drift & reliability monitoring
+```
+
+---
+
+## Research & Certifications
+
+<div align="center">
+
+<a href="https://scholar.google.com/citations?user=gmjWDxkAAAAJ&hl=en" target="_blank">
+  <img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/scholar.svg?sanitize=true&v=80" alt="Google Scholar" />
+</a>
+
+</div>
 
 ---
 
@@ -73,37 +102,6 @@
 
 ---
 
-
-
-## Research & Certification
-
-<div align="center">
-
-<a href="https://scholar.google.com/citations?user=gmjWDxkAAAAJ&hl=en" target="_blank">
-  <img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/scholar.svg?sanitize=true&v=4" alt="Google Scholar" />
-</a>
-
-</div>
-
----
-
-
-### **Currently Building**
-
-```
-rag-basic-to-advanced/beginner-local-rag-cli/  → Command-line RAG for intelligent retrieval
-agentic-ai-lab/                                → Autonomous agents and tool-using AI systems
-```
-
-### **Upcoming**
-
-```
-rag-anomaly-risk/        → RAG pipeline for anomaly-based risk detection
-model-health-dashboard/  → AI model drift and reliability monitoring
-```
-
-
----
 ## Tech Stack
 
 <div align="center">
@@ -231,26 +229,26 @@ model-health-dashboard/  → AI model drift and reliability monitoring
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=NinjaOfNeurons&theme=transparent&hide_border=false&border=3d2a5e&background=00000000&ring=c084fc&fire=9333ea&currStreakLabel=c084fc&sideLabels=c084fc&dates=8b8fa8&stroke=3d2a5e" height="165" />
+<img src="https://streak-stats.demolab.com?user=NinjaOfNeurons&theme=transparent&hide_border=false&border=312e81&background=00000000&ring=818cf8&fire=4338ca&currStreakLabel=818cf8&sideLabels=818cf8&dates=8b8fa8&stroke=312e81" height="165" />
 
-<img src="https://github-readme-stats.vercel.app/api?username=NinjaOfNeurons&show_icons=true&hide_border=false&border_color=3d2a5e&theme=transparent&bg_color=00000000&title_color=c084fc&icon_color=9333ea&text_color=e2e8f0" height="165" />
+<img src="https://github-readme-stats.vercel.app/api?username=NinjaOfNeurons&show_icons=true&hide_border=false&border_color=312e81&theme=transparent&bg_color=00000000&title_color=818cf8&icon_color=4338ca&text_color=e2e8f0" height="165" />
 
 </div>
 
 <br/>
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=NinjaOfNeurons&bg_color=0d1117&color=c084fc&line=7c3aed&point=e9d5ff&area=true&hide_border=true&area_color=3b0764" width="95%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=NinjaOfNeurons&bg_color=0d1117&color=818cf8&line=4338ca&point=e9d5ff&area=true&hide_border=true&area_color=1e1b4b" width="95%" />
 </div>
 
 ---
 
 <div align="center">
-<img src="https://komarev.com/ghpvc/?username=NinjaOfNeurons&color=9333ea&style=flat-square&label=profile+views" />
+<img src="https://komarev.com/ghpvc/?username=NinjaOfNeurons&color=4338ca&style=flat-square&label=profile+views" />
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/dynamic.svg?sanitize=true" alt="Dynamic Profile Card" />
+<img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/dynamic.svg?sanitize=true&v=80" alt="Dynamic Profile Card" />
 </div>
 
 <br/>
@@ -261,4 +259,4 @@ model-health-dashboard/  → AI model drift and reliability monitoring
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b0764,50:6b21a8,100:3b0764&height=120&section=footer&text=%22Let%27s+connect+and+explore+the+world+of+AI+together.%22&fontSize=13&fontColor=e9d5ff&fontAlignY=65" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e1b4b,50:3730a3,100:1e1b4b&height=120&section=footer&text=%22Let%27s+connect+and+explore+the+world+of+AI+together.%22&fontSize=13&fontColor=e9d5ff&fontAlignY=65" width="100%" />
