@@ -13,31 +13,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Set theme colors for today
-        id: theme
-        run: |
-          DAY=$(date +%u)  # 1=Mon ... 7=Sun
-          case $DAY in
-            1) SNAKE_COLOR="c084fc" ;;   # Mon — Violet
-            2) SNAKE_COLOR="22d3ee" ;;   # Tue — Cyan
-            3) SNAKE_COLOR="fbbf24" ;;   # Wed — Amber
-            4) SNAKE_COLOR="fb7185" ;;   # Thu — Rose
-            5) SNAKE_COLOR="34d399" ;;   # Fri — Emerald
-            6) SNAKE_COLOR="818cf8" ;;   # Sat — Indigo
-            7) SNAKE_COLOR="94a3b8" ;;   # Sun — Slate
-          esac
-          echo "color=$SNAKE_COLOR" >> $GITHUB_OUTPUT
-
-      - name: Generate snake SVGs
-        uses: Platane/snk@v3
+      - uses: Platane/snk@v3
         with:
           github_user_name: NinjaOfNeurons
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=ffffff&color_dots=#0d1117,#1e1b2e,#3b0764,#6d28d9,${{ steps.theme.outputs.color }}
-            dist/github-contribution-grid-snake-dark.svg?color_snake=ffffff&color_dots=#0d1117,#1e1b2e,#3b0764,#6d28d9,${{ steps.theme.outputs.color }}
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Push to output branch
         uses: peaceiris/actions-gh-pages@v4
