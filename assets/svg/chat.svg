@@ -24,56 +24,56 @@
   <rect width="620" height="400" fill="#0d1117" rx="16"/>
   <text class="hi" x="28" y="44">Hi there.</text>
   <g class="typing1">
-    <rect x="28" y="58" width="72" height="34" rx="17" fill="#1e1b2e"/>
-    <circle class="dot1" cx="46" cy="75" r="4" fill="#c084fc"/>
-    <circle class="dot2" cx="60" cy="75" r="4" fill="#c084fc"/>
-    <circle class="dot3" cx="74" cy="75" r="4" fill="#c084fc"/>
+    <rect x="28" y="58" width="72" height="34" rx="17" fill="#0c1e24"/>
+    <circle class="dot1" cx="46" cy="75" r="4" fill="#22d3ee"/>
+    <circle class="dot2" cx="60" cy="75" r="4" fill="#22d3ee"/>
+    <circle class="dot3" cx="74" cy="75" r="4" fill="#22d3ee"/>
   </g>
   <g class="b1">
-    <rect x="28" y="58" width="220" height="38" rx="18" fill="#1e1b2e"/>
+    <rect x="28" y="58" width="220" height="38" rx="18" fill="#0c1e24"/>
     <text class="text" x="48" y="82">I'm Karanpreet Singh.</text>
   </g>
   <g class="typing2">
-    <rect x="28" y="108" width="72" height="34" rx="17" fill="#1e1b2e"/>
-    <circle class="dot1" cx="46" cy="125" r="4" fill="#c084fc"/>
-    <circle class="dot2" cx="60" cy="125" r="4" fill="#c084fc"/>
-    <circle class="dot3" cx="74" cy="125" r="4" fill="#c084fc"/>
+    <rect x="28" y="108" width="72" height="34" rx="17" fill="#0c1e24"/>
+    <circle class="dot1" cx="46" cy="125" r="4" fill="#22d3ee"/>
+    <circle class="dot2" cx="60" cy="125" r="4" fill="#22d3ee"/>
+    <circle class="dot3" cx="74" cy="125" r="4" fill="#22d3ee"/>
   </g>
   <g class="b2">
-    <rect x="28" y="108" width="540" height="56" rx="18" fill="#1e1b2e"/>
+    <rect x="28" y="108" width="540" height="56" rx="18" fill="#0c1e24"/>
     <text class="text" x="48" y="131">Ex Research Assistant at SMARTH, University of Delhi</text>
     <text class="text" x="48" y="153">CPS Lab — where curiosity met real systems.</text>
   </g>
   <g class="typing3">
-    <rect x="28" y="176" width="72" height="34" rx="17" fill="#1e1b2e"/>
-    <circle class="dot1" cx="46" cy="193" r="4" fill="#c084fc"/>
-    <circle class="dot2" cx="60" cy="193" r="4" fill="#c084fc"/>
-    <circle class="dot3" cx="74" cy="193" r="4" fill="#c084fc"/>
+    <rect x="28" y="176" width="72" height="34" rx="17" fill="#0c1e24"/>
+    <circle class="dot1" cx="46" cy="193" r="4" fill="#22d3ee"/>
+    <circle class="dot2" cx="60" cy="193" r="4" fill="#22d3ee"/>
+    <circle class="dot3" cx="74" cy="193" r="4" fill="#22d3ee"/>
   </g>
   <g class="b3">
-    <rect x="28" y="176" width="530" height="56" rx="18" fill="#2d1b4e"/>
-    <text class="text" x="48" y="199">RAG · Agentic AI · MCP · AI Governance Platform</text>
-    <text class="text" x="48" y="221">Model Security · Edge Optimization · Encrypted AI</text>
+    <rect x="28" y="176" width="530" height="56" rx="18" fill="#0e2d35"/>
+    <text class="text" x="48" y="199">RAG Pipelines · Vector Search · Semantic Retrieval</text>
+    <text class="text" x="48" y="221">LangChain · LlamaIndex · ChromaDB · FAISS</text>
   </g>
   <g class="typing4">
-    <rect x="28" y="244" width="72" height="34" rx="17" fill="#1e1b2e"/>
-    <circle class="dot1" cx="46" cy="261" r="4" fill="#c084fc"/>
-    <circle class="dot2" cx="60" cy="261" r="4" fill="#c084fc"/>
-    <circle class="dot3" cx="74" cy="261" r="4" fill="#c084fc"/>
+    <rect x="28" y="244" width="72" height="34" rx="17" fill="#0c1e24"/>
+    <circle class="dot1" cx="46" cy="261" r="4" fill="#22d3ee"/>
+    <circle class="dot2" cx="60" cy="261" r="4" fill="#22d3ee"/>
+    <circle class="dot3" cx="74" cy="261" r="4" fill="#22d3ee"/>
   </g>
   <g class="b4">
-    <rect x="28" y="244" width="530" height="38" rx="18" fill="#1e1b2e"/>
+    <rect x="28" y="244" width="530" height="38" rx="18" fill="#0c1e24"/>
     <text class="text" x="48" y="268">ML Engineer at VectorEdge — building practical AI that ships.</text>
   </g>
   <g class="typing5">
-    <rect x="28" y="294" width="72" height="34" rx="17" fill="#1e1b2e"/>
-    <circle class="dot1" cx="46" cy="311" r="4" fill="#c084fc"/>
-    <circle class="dot2" cx="60" cy="311" r="4" fill="#c084fc"/>
-    <circle class="dot3" cx="74" cy="311" r="4" fill="#c084fc"/>
+    <rect x="28" y="294" width="72" height="34" rx="17" fill="#0c1e24"/>
+    <circle class="dot1" cx="46" cy="311" r="4" fill="#22d3ee"/>
+    <circle class="dot2" cx="60" cy="311" r="4" fill="#22d3ee"/>
+    <circle class="dot3" cx="74" cy="311" r="4" fill="#22d3ee"/>
   </g>
   <g class="b5">
-    <rect x="28" y="294" width="560" height="56" rx="18" fill="#1e1b2e"/>
+    <rect x="28" y="294" width="560" height="56" rx="18" fill="#0c1e24"/>
     <text class="text" x="48" y="318">Let's build something impactful —</text>
-    <text class="text" x="48" y="340">reach out at <tspan fill="#c084fc">dev.karanpreet@gmail.com</tspan></text>
+    <text class="text" x="48" y="340">reach out at <tspan fill="#22d3ee">dev.karanpreet@gmail.com</tspan></text>
   </g>
 </svg>
