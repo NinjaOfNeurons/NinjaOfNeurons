@@ -258,84 +258,97 @@ def generate_dynamic_svg(greeting, city, temp, weather_desc, weather_emoji, quot
 # ── Generate chat.svg ─────────────────────────────────────────────────────────
 def generate_chat_svg(t):
     p = t["primary"]; bc = t["bg_card"]; ba = t["bg_accent"]
+    # Timing (all in seconds, total cycle = 36s)
+    # typing shows for 3s before each bubble
+    # t1=0  b1=3   t2=7   b2=10  t3=15  b3=18  t4=23  b4=26  all fade=33 reset=36
+    # SMIL keyTimes = time/36
+    def kt(s): return f"{s/36:.3f}"
+
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="620" height="400" viewBox="0 0 620 400">
   <defs>
     <style>
       .text {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 15px; fill: #e9d5ff; }}
       .hi   {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 22px; font-weight: 700; fill: #ffffff; }}
-      .b1 {{ opacity: 0; animation: fadeUp 1.2s ease forwards; animation-delay: 2s; }}
-      .b2 {{ opacity: 0; animation: fadeUp 1.2s ease forwards; animation-delay: 6s; }}
-      .b3 {{ opacity: 0; animation: fadeUp 1.2s ease forwards; animation-delay: 10s; }}
-      .b4 {{ opacity: 0; animation: fadeUp 1.2s ease forwards; animation-delay: 14s; }}
-      .b5 {{ opacity: 0; animation: fadeUp 1.2s ease forwards; animation-delay: 18s; }}
-      .typing1 {{ opacity: 0; animation: showHide 4s ease forwards; animation-delay: 0.5s; }}
-      .typing2 {{ opacity: 0; animation: showHide 4s ease forwards; animation-delay: 4s; }}
-      .typing3 {{ opacity: 0; animation: showHide 4s ease forwards; animation-delay: 8s; }}
-      .typing4 {{ opacity: 0; animation: showHide 4s ease forwards; animation-delay: 12s; }}
-      .typing5 {{ opacity: 0; animation: showHide 4s ease forwards; animation-delay: 16s; }}
-      .dot1 {{ animation: bounce 0.8s ease infinite; }}
-      .dot2 {{ animation: bounce 0.8s ease infinite; animation-delay: 0.2s; }}
-      .dot3 {{ animation: bounce 0.8s ease infinite; animation-delay: 0.4s; }}
-      @keyframes fadeUp {{ from {{ opacity: 0; transform: translateY(8px); }} to {{ opacity: 1; transform: translateY(0); }} }}
-      @keyframes showHide {{ 0%, 90% {{ opacity: 1; }} 100% {{ opacity: 0; }} }}
+      .dot-a {{ animation: bounce 0.8s ease infinite; }}
+      .dot-b {{ animation: bounce 0.8s ease infinite; animation-delay: 0.2s; }}
+      .dot-c {{ animation: bounce 0.8s ease infinite; animation-delay: 0.4s; }}
       @keyframes bounce {{ 0%, 100% {{ transform: translateY(0); }} 50% {{ transform: translateY(-3px); }} }}
     </style>
   </defs>
+
   <rect width="620" height="400" fill="#0d1117" rx="16"/>
   <text class="hi" x="28" y="44">Hi there.</text>
-  <g class="typing1">
+
+  <!-- ── TYPING 1 (0s → 3s) ── -->
+  <g>
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;{kt(0)};{kt(3)};{kt(3.3)};1" dur="36s" repeatCount="indefinite"/>
     <rect x="28" y="58" width="72" height="34" rx="17" fill="{bc}"/>
-    <circle class="dot1" cx="46" cy="75" r="4" fill="{p}"/>
-    <circle class="dot2" cx="60" cy="75" r="4" fill="{p}"/>
-    <circle class="dot3" cx="74" cy="75" r="4" fill="{p}"/>
+    <circle class="dot-a" cx="46" cy="75" r="4" fill="{p}"/>
+    <circle class="dot-b" cx="60" cy="75" r="4" fill="{p}"/>
+    <circle class="dot-c" cx="74" cy="75" r="4" fill="{p}"/>
   </g>
-  <g class="b1">
-    <rect x="28" y="58" width="220" height="38" rx="18" fill="{bc}"/>
+  <!-- BUBBLE 1: I'm Karanpreet Singh (3s → 33s) -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;{kt(3)};{kt(4.2)};{kt(33)};{kt(34)};1" dur="36s" repeatCount="indefinite"/>
+    <rect x="28" y="58" width="240" height="38" rx="18" fill="{bc}"/>
     <text class="text" x="48" y="82">I'm Karanpreet Singh.</text>
   </g>
-  <g class="typing2">
+
+  <!-- ── TYPING 2 (7s → 10s) ── -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;{kt(7)};{kt(7)};{kt(10)};{kt(10.3)};1" dur="36s" repeatCount="indefinite"/>
     <rect x="28" y="108" width="72" height="34" rx="17" fill="{bc}"/>
-    <circle class="dot1" cx="46" cy="125" r="4" fill="{p}"/>
-    <circle class="dot2" cx="60" cy="125" r="4" fill="{p}"/>
-    <circle class="dot3" cx="74" cy="125" r="4" fill="{p}"/>
+    <circle class="dot-a" cx="46" cy="125" r="4" fill="{p}"/>
+    <circle class="dot-b" cx="60" cy="125" r="4" fill="{p}"/>
+    <circle class="dot-c" cx="74" cy="125" r="4" fill="{p}"/>
   </g>
-  <g class="b2">
+  <!-- BUBBLE 2: Research background (10s → 33s) -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;{kt(10)};{kt(11.2)};{kt(33)};{kt(34)};1" dur="36s" repeatCount="indefinite"/>
     <rect x="28" y="108" width="540" height="56" rx="18" fill="{bc}"/>
     <text class="text" x="48" y="131">Ex Research Assistant at SMARTH, University of Delhi</text>
     <text class="text" x="48" y="153">CPS Lab — where curiosity met real systems.</text>
   </g>
-  <g class="typing3">
+
+  <!-- ── TYPING 3 (15s → 18s) ── -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;{kt(15)};{kt(15)};{kt(18)};{kt(18.3)};1" dur="36s" repeatCount="indefinite"/>
     <rect x="28" y="176" width="72" height="34" rx="17" fill="{bc}"/>
-    <circle class="dot1" cx="46" cy="193" r="4" fill="{p}"/>
-    <circle class="dot2" cx="60" cy="193" r="4" fill="{p}"/>
-    <circle class="dot3" cx="74" cy="193" r="4" fill="{p}"/>
+    <circle class="dot-a" cx="46" cy="193" r="4" fill="{p}"/>
+    <circle class="dot-b" cx="60" cy="193" r="4" fill="{p}"/>
+    <circle class="dot-c" cx="74" cy="193" r="4" fill="{p}"/>
   </g>
-  <g class="b3">
+  <!-- BUBBLE 3: Focus areas (18s → 33s) -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;{kt(18)};{kt(19.2)};{kt(33)};{kt(34)};1" dur="36s" repeatCount="indefinite"/>
     <rect x="28" y="176" width="530" height="56" rx="18" fill="{ba}"/>
     <text class="text" x="48" y="199">{t['focus']}</text>
     <text class="text" x="48" y="221">{t['focus2']}</text>
   </g>
-  <g class="typing4">
+
+  <!-- ── TYPING 4 (23s → 26s) ── -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;{kt(23)};{kt(23)};{kt(26)};{kt(26.3)};1" dur="36s" repeatCount="indefinite"/>
     <rect x="28" y="244" width="72" height="34" rx="17" fill="{bc}"/>
-    <circle class="dot1" cx="46" cy="261" r="4" fill="{p}"/>
-    <circle class="dot2" cx="60" cy="261" r="4" fill="{p}"/>
-    <circle class="dot3" cx="74" cy="261" r="4" fill="{p}"/>
+    <circle class="dot-a" cx="46" cy="261" r="4" fill="{p}"/>
+    <circle class="dot-b" cx="60" cy="261" r="4" fill="{p}"/>
+    <circle class="dot-c" cx="74" cy="261" r="4" fill="{p}"/>
   </g>
-  <g class="b4">
+  <!-- BUBBLE 4: ML Engineer (26s → 33s) -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;{kt(26)};{kt(27.2)};{kt(33)};{kt(34)};1" dur="36s" repeatCount="indefinite"/>
     <rect x="28" y="244" width="530" height="38" rx="18" fill="{bc}"/>
     <text class="text" x="48" y="268">ML Engineer at VectorEdge — building practical AI that ships.</text>
   </g>
-  <g class="typing5">
-    <rect x="28" y="294" width="72" height="34" rx="17" fill="{bc}"/>
-    <circle class="dot1" cx="46" cy="311" r="4" fill="{p}"/>
-    <circle class="dot2" cx="60" cy="311" r="4" fill="{p}"/>
-    <circle class="dot3" cx="74" cy="311" r="4" fill="{p}"/>
-  </g>
-  <g class="b5">
+
+  <!-- BUBBLE 5: Contact — appears last, stays till reset (29s → 33s) -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;{kt(29)};{kt(30.2)};{kt(33)};{kt(34)};1" dur="36s" repeatCount="indefinite"/>
     <rect x="28" y="294" width="560" height="56" rx="18" fill="{bc}"/>
     <text class="text" x="48" y="318">Let's build something impactful —</text>
     <text class="text" x="48" y="340">reach out at <tspan fill="{p}">dev.karanpreet@gmail.com</tspan></text>
   </g>
+
 </svg>"""
 
 # ── Generate scholar.svg ──────────────────────────────────────────────────────
