@@ -16,30 +16,30 @@
   <!-- ── TYPING 1 (0s → 3s) ── -->
   <g>
     <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.000;0.083;0.092;1" dur="36s" repeatCount="indefinite"/>
-    <rect x="28" y="58" width="72" height="34" rx="17" fill="#031c12"/>
-    <circle class="dot-a" cx="46" cy="75" r="4" fill="#34d399"/>
-    <circle class="dot-b" cx="60" cy="75" r="4" fill="#34d399"/>
-    <circle class="dot-c" cx="74" cy="75" r="4" fill="#34d399"/>
+    <rect x="28" y="58" width="72" height="34" rx="17" fill="#0f0e24"/>
+    <circle class="dot-a" cx="46" cy="75" r="4" fill="#818cf8"/>
+    <circle class="dot-b" cx="60" cy="75" r="4" fill="#818cf8"/>
+    <circle class="dot-c" cx="74" cy="75" r="4" fill="#818cf8"/>
   </g>
   <!-- BUBBLE 1: I'm Karanpreet Singh (3s → 33s) -->
   <g>
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.083;0.117;0.917;0.944;1" dur="36s" repeatCount="indefinite"/>
-    <rect x="28" y="58" width="240" height="38" rx="18" fill="#031c12"/>
+    <rect x="28" y="58" width="240" height="38" rx="18" fill="#0f0e24"/>
     <text class="text" x="48" y="82">I'm Karanpreet Singh.</text>
   </g>
 
   <!-- ── TYPING 2 (7s → 10s) ── -->
   <g>
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.194;0.194;0.278;0.286;1" dur="36s" repeatCount="indefinite"/>
-    <rect x="28" y="108" width="72" height="34" rx="17" fill="#031c12"/>
-    <circle class="dot-a" cx="46" cy="125" r="4" fill="#34d399"/>
-    <circle class="dot-b" cx="60" cy="125" r="4" fill="#34d399"/>
-    <circle class="dot-c" cx="74" cy="125" r="4" fill="#34d399"/>
+    <rect x="28" y="108" width="72" height="34" rx="17" fill="#0f0e24"/>
+    <circle class="dot-a" cx="46" cy="125" r="4" fill="#818cf8"/>
+    <circle class="dot-b" cx="60" cy="125" r="4" fill="#818cf8"/>
+    <circle class="dot-c" cx="74" cy="125" r="4" fill="#818cf8"/>
   </g>
   <!-- BUBBLE 2: Research background (10s → 33s) -->
   <g>
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.278;0.311;0.917;0.944;1" dur="36s" repeatCount="indefinite"/>
-    <rect x="28" y="108" width="540" height="56" rx="18" fill="#031c12"/>
+    <rect x="28" y="108" width="540" height="56" rx="18" fill="#0f0e24"/>
     <text class="text" x="48" y="131">Ex Research Assistant at SMARTH, University of Delhi</text>
     <text class="text" x="48" y="153">CPS Lab — where curiosity met real systems.</text>
   </g>
@@ -47,40 +47,40 @@
   <!-- ── TYPING 3 (15s → 18s) ── -->
   <g>
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.417;0.417;0.500;0.508;1" dur="36s" repeatCount="indefinite"/>
-    <rect x="28" y="176" width="72" height="34" rx="17" fill="#031c12"/>
-    <circle class="dot-a" cx="46" cy="193" r="4" fill="#34d399"/>
-    <circle class="dot-b" cx="60" cy="193" r="4" fill="#34d399"/>
-    <circle class="dot-c" cx="74" cy="193" r="4" fill="#34d399"/>
+    <rect x="28" y="176" width="72" height="34" rx="17" fill="#0f0e24"/>
+    <circle class="dot-a" cx="46" cy="193" r="4" fill="#818cf8"/>
+    <circle class="dot-b" cx="60" cy="193" r="4" fill="#818cf8"/>
+    <circle class="dot-c" cx="74" cy="193" r="4" fill="#818cf8"/>
   </g>
   <!-- BUBBLE 3: Focus areas (18s → 33s) -->
   <g>
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.500;0.533;0.917;0.944;1" dur="36s" repeatCount="indefinite"/>
-    <rect x="28" y="176" width="530" height="56" rx="18" fill="#052e1c"/>
-    <text class="text" x="48" y="199">Open Source · RAG · MCP · Agentic Pipelines</text>
-    <text class="text" x="48" y="221">LangGraph · FastAPI · Docker · Kubernetes</text>
+    <rect x="28" y="176" width="530" height="56" rx="18" fill="#1a1840"/>
+    <text class="text" x="48" y="199">Research · AI Governance · Published Papers</text>
+    <text class="text" x="48" y="221">Google Scholar · Applied NLP · Multimodal AI</text>
   </g>
 
   <!-- ── TYPING 4 (23s → 26s) ── -->
   <g>
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.639;0.639;0.722;0.731;1" dur="36s" repeatCount="indefinite"/>
-    <rect x="28" y="244" width="72" height="34" rx="17" fill="#031c12"/>
-    <circle class="dot-a" cx="46" cy="261" r="4" fill="#34d399"/>
-    <circle class="dot-b" cx="60" cy="261" r="4" fill="#34d399"/>
-    <circle class="dot-c" cx="74" cy="261" r="4" fill="#34d399"/>
+    <rect x="28" y="244" width="72" height="34" rx="17" fill="#0f0e24"/>
+    <circle class="dot-a" cx="46" cy="261" r="4" fill="#818cf8"/>
+    <circle class="dot-b" cx="60" cy="261" r="4" fill="#818cf8"/>
+    <circle class="dot-c" cx="74" cy="261" r="4" fill="#818cf8"/>
   </g>
   <!-- BUBBLE 4: ML Engineer (26s → 33s) -->
   <g>
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.722;0.756;0.917;0.944;1" dur="36s" repeatCount="indefinite"/>
-    <rect x="28" y="244" width="530" height="38" rx="18" fill="#031c12"/>
+    <rect x="28" y="244" width="530" height="38" rx="18" fill="#0f0e24"/>
     <text class="text" x="48" y="268">ML Engineer at VectorEdge — building practical AI that ships.</text>
   </g>
 
   <!-- BUBBLE 5: Contact — appears last, stays till reset (29s → 33s) -->
   <g>
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.806;0.839;0.917;0.944;1" dur="36s" repeatCount="indefinite"/>
-    <rect x="28" y="294" width="560" height="56" rx="18" fill="#031c12"/>
+    <rect x="28" y="294" width="560" height="56" rx="18" fill="#0f0e24"/>
     <text class="text" x="48" y="318">Let's build something impactful —</text>
-    <text class="text" x="48" y="340">reach out at <tspan fill="#34d399">dev.karanpreet@gmail.com</tspan></text>
+    <text class="text" x="48" y="340">reach out at <tspan fill="#818cf8">dev.karanpreet@gmail.com</tspan></text>
   </g>
 
 </svg>
