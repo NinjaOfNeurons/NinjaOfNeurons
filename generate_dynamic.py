@@ -5,9 +5,10 @@ import sys
 import os
 
 # ── Config ────────────────────────────────────────────────────────────────────
-CITY      = "Ohio, USA"
-LATITUDE  = 40.417286
-LONGITUDE = -82.907120
+# CITY      = "Ohio, USA"
+CITY      = "Delhi, India"
+LATITUDE  = 28.613939
+LONGITUDE = 77.209021
 # TIMEZONE  = "America/Panama"
 TIMEZONE = "Asia/Kolkata"
 # ──────────────────────────────────────────────────────────────────────────────
