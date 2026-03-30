@@ -8,7 +8,8 @@ import os
 CITY      = "Ohio, USA"
 LATITUDE  = 40.417286
 LONGITUDE = -82.907120
-TIMEZONE  = "America/Panama"
+# TIMEZONE  = "America/Panama"
+TIMEZONE = "Asia/Kolkata"
 # ──────────────────────────────────────────────────────────────────────────────
 
 # ── 7 Daily Themes (Mon=0 … Sun=6) ───────────────────────────────────────────
