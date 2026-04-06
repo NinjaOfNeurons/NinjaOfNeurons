@@ -2,46 +2,47 @@
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#0d1117"/>
-      <stop offset="100%" style="stop-color:#0c1018"/>
+      <stop offset="100%" style="stop-color:#1a0533"/>
     </linearGradient>
     <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0f1318"/>
-      <stop offset="100%" style="stop-color:#1a2030"/>
+      <stop offset="0%" style="stop-color:#1e1b2e"/>
+      <stop offset="100%" style="stop-color:#2d1b4e"/>
     </linearGradient>
     <style>
       .greeting { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 26px; font-weight: 700; fill: #ffffff; }
-      .label    { font-family: 'Courier New', monospace; font-size: 11px; fill: #475569; letter-spacing: 2px; text-transform: uppercase; }
+      .label    { font-family: 'Courier New', monospace; font-size: 11px; fill: #7c3aed; letter-spacing: 2px; text-transform: uppercase; }
       .value    { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 15px; fill: #e9d5ff; font-weight: 500; }
       .weather-big  { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 42px; }
-      .weather-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 13px; fill: #64748b; }
-      .quote    { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 13px; fill: #94a3b8; font-style: italic; text-anchor: middle; }
-      .divider  { stroke: #1e293b; stroke-width: 1; }
-      .updated  { font-family: 'Courier New', monospace; font-size: 10px; fill: #1e2535; }
-      .dot      { fill: #475569; animation: pulse 2s ease-in-out infinite; }
+      .weather-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 13px; fill: #a855f7; }
+      .quote    { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 13px; fill: #c084fc; font-style: italic; text-anchor: middle; }
+      .divider  { stroke: #3b0764; stroke-width: 1; }
+      .updated  { font-family: 'Courier New', monospace; font-size: 10px; fill: #4b3b6b; }
+      .dot      { fill: #7c3aed; animation: pulse 2s ease-in-out infinite; }
       @keyframes pulse { 0%, 100% { opacity: 1; r: 4px; } 50% { opacity: 0.4; r: 3px; } }
     </style>
   </defs>
   <rect width="620" height="320" fill="url(#bg)" rx="16"/>
-  <rect width="618" height="318" x="1" y="1" rx="15" fill="none" stroke="#1e293b" stroke-width="1"/>
+  <rect width="618" height="318" x="1" y="1" rx="15" fill="none" stroke="#3b0764" stroke-width="1"/>
   <rect x="20" y="20" width="260" height="280" rx="12" fill="url(#card)" opacity="0.6"/>
-  <text class="greeting" x="40" y="65">Slow Sunday</text>
+  <text class="greeting" x="40" y="65">Moody Monday</text>
   <line x1="40" y1="115" x2="260" y2="115" class="divider"/>
   <text class="label" x="40" y="140">Weather · Delhi, India</text>
-  <text class="weather-big" x="40" y="195">⛅</text>
-  <text class="value" x="95" y="178">30°C</text>
-  <text class="weather-desc" x="95" y="198">Partly Cloudy</text>
+  <text class="weather-big" x="40" y="195">🌤️</text>
+  <text class="value" x="95" y="178">32°C</text>
+  <text class="weather-desc" x="95" y="198">Mainly Clear</text>
   <line x1="40" y1="215" x2="260" y2="215" class="divider"/>
   <circle class="dot" cx="48" cy="240" r="4"/>
   <text class="label" x="62" y="244">Live · Updates Daily</text>
-  <text class="updated" x="40" y="272">Last updated: Apr 05, 2026 · 07:13 UTC</text>
+  <text class="updated" x="40" y="272">Last updated: Apr 06, 2026 · 07:50 UTC</text>
   <text class="updated" x="40" y="286">github.com/NinjaOfNeurons</text>
   <line x1="300" y1="20" x2="300" y2="300" class="divider"/>
   <text class="label" x="465" y="55" text-anchor="middle">Today's Thought</text>
   <line x1="320" y1="68" x2="610" y2="68" class="divider"/>
   <line x1="320" y1="285" x2="610" y2="285" class="divider"/>
-  <text class="quote" x="465" y="144">"Innovation grows where curiosity</text>
-    <text class="quote" x="465" y="168">and purpose meet."</text>
+  <text class="quote" x="465" y="132">"Computers solve problems, but</text>
+    <text class="quote" x="465" y="156">humans define which problems</text>
+    <text class="quote" x="465" y="180">matter."</text>
     
-  <rect x="20" y="292" width="580" height="1" fill="#1e293b"/>
+  <rect x="20" y="292" width="580" height="1" fill="#3b0764"/>
   <text class="label" x="310" y="310" text-anchor="middle">Trust me, I read the docs.</text>
 </svg>
