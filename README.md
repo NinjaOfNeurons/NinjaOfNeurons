@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b0764,50:6b21a8,100:3b0764&height=200&section=header&text=Karanpreet%20Singh&fontSize=54&fontColor=ffffff&fontAlignY=38&desc=Machine%20Learning%20Engineer%20%C2%B7%20Product%20Lead%20%C2%B7%20AI%20Explorer&descAlignY=58&descSize=16&descColor=e9d5ff" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0c4a6e,50:0e7490,100:0c4a6e&height=200&section=header&text=Karanpreet%20Singh&fontSize=54&fontColor=ffffff&fontAlignY=38&desc=Machine%20Learning%20Engineer%20%C2%B7%20Product%20Lead%20%C2%B7%20AI%20Explorer&descAlignY=58&descSize=16&descColor=e9d5ff" />
 
 </div>
 
 <br/>
 
 <a href="https://www.linkedin.com/in/karanpreet-5ingh" target="_blank">
-  <img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/chat.svg?v=96" />
+  <img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/chat.svg?v=97" />
 </a>
 
 <br/>
@@ -36,7 +36,7 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 <div align="center">
 
 <a href="https://scholar.google.com/citations?user=gmjWDxkAAAAJ&hl=en" target="_blank">
-  <img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/scholar.svg?sanitize=true&v=96" alt="Google Scholar" />
+  <img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/scholar.svg?sanitize=true&v=97" alt="Google Scholar" />
 </a>
 
 </div>
@@ -229,26 +229,26 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=NinjaOfNeurons&theme=transparent&hide_border=false&border=3b0764&background=00000000&ring=c084fc&fire=7c3aed&currStreakLabel=c084fc&sideLabels=c084fc&dates=8b8fa8&stroke=3b0764" height="165" />
+<img src="https://streak-stats.demolab.com?user=NinjaOfNeurons&theme=transparent&hide_border=false&border=164e63&background=00000000&ring=22d3ee&fire=0891b2&currStreakLabel=22d3ee&sideLabels=22d3ee&dates=8b8fa8&stroke=164e63" height="165" />
 
-<img src="https://github-readme-stats.vercel.app/api?username=NinjaOfNeurons&show_icons=true&hide_border=false&border_color=3b0764&theme=transparent&bg_color=00000000&title_color=c084fc&icon_color=7c3aed&text_color=e2e8f0" height="165" />
+<img src="https://github-readme-stats.vercel.app/api?username=NinjaOfNeurons&show_icons=true&hide_border=false&border_color=164e63&theme=transparent&bg_color=00000000&title_color=22d3ee&icon_color=0891b2&text_color=e2e8f0" height="165" />
 
 </div>
 
 <br/>
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=NinjaOfNeurons&bg_color=0d1117&color=c084fc&line=7c3aed&point=e9d5ff&area=true&hide_border=true&area_color=3b0764" width="95%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=NinjaOfNeurons&bg_color=0d1117&color=22d3ee&line=0891b2&point=e9d5ff&area=true&hide_border=true&area_color=0c4a6e" width="95%" />
 </div>
 
 ---
 
 <div align="center">
-<img src="https://komarev.com/ghpvc/?username=NinjaOfNeurons&color=7c3aed&style=flat-square&label=profile+views" />
+<img src="https://komarev.com/ghpvc/?username=NinjaOfNeurons&color=0891b2&style=flat-square&label=profile+views" />
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/dynamic.svg?sanitize=true&v=96" alt="Dynamic Profile Card" />
+<img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/dynamic.svg?sanitize=true&v=97" alt="Dynamic Profile Card" />
 </div>
 
 <br/>
@@ -259,4 +259,4 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b0764,50:6b21a8,100:3b0764&height=120&section=footer&text=%22Let%27s+connect+and+explore+the+world+of+AI+together.%22&fontSize=13&fontColor=e9d5ff&fontAlignY=65" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0c4a6e,50:0e7490,100:0c4a6e&height=120&section=footer&text=%22Let%27s+connect+and+explore+the+world+of+AI+together.%22&fontSize=13&fontColor=e9d5ff&fontAlignY=65" width="100%" />
