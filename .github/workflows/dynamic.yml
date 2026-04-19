@@ -30,8 +30,8 @@ jobs:
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          git config --global user.name "Karanpreet Singh"
-          git config --global user.email "dev.karanpreet@gmail.com"
+          git config --global user.name "auto-bot"
+          git config --global user.email "bot@no-reply.local"
           git add assets/svg/dynamic.svg assets/svg/chat.svg assets/svg/scholar.svg README.md
           if ! git diff --staged --quiet; then
             git commit -m "chore: daily theme update [$(date -u '+%Y-%m-%d %H:%M UTC')]"
