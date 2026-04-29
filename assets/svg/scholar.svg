@@ -3,11 +3,11 @@
     <style>
       .header     { font-family: 'Segoe UI', sans-serif; font-size: 20px; font-weight: 700; fill: #ffffff; }
       .role       { font-family: 'Segoe UI', sans-serif; font-size: 14px; fill: #e9d5ff; }
-      .stat-title { font-family: 'Segoe UI', sans-serif; font-size: 12px; fill: #22d3ee; }
+      .stat-title { font-family: 'Segoe UI', sans-serif; font-size: 12px; fill: #fbbf24; }
       .stat-value { font-family: 'Segoe UI', sans-serif; font-size: 16px; fill: #ffffff; font-weight: 600; }
       .paper      { font-family: 'Courier New', monospace; font-size: 13px; fill: #e9d5ff; }
-      .num        { fill: #22d3ee; font-weight: 700; }
-      .link       { font-family: 'Segoe UI', sans-serif; font-size: 13px; fill: #22d3ee; font-weight: 600; }
+      .num        { fill: #fbbf24; font-weight: 700; }
+      .link       { font-family: 'Segoe UI', sans-serif; font-size: 13px; fill: #fbbf24; font-weight: 600; }
       .dot-a { animation: bounce 0.7s ease infinite; }
       .dot-b { animation: bounce 0.7s ease infinite; animation-delay: 0.15s; }
       .dot-c { animation: bounce 0.7s ease infinite; animation-delay: 0.30s; }
@@ -15,27 +15,27 @@
     </style>
   </defs>
   <rect width="860" height="370" rx="16" fill="#0d1117"/>
-  <rect width="858" height="368" x="1" y="1" rx="15" fill="none" stroke="#164e63" stroke-width="1"/>
+  <rect width="858" height="368" x="1" y="1" rx="15" fill="none" stroke="#78350f" stroke-width="1"/>
   <text class="header" x="28" y="42">Google Scholar</text>
   <text class="role"   x="28" y="64">Research @ IIC · VectorEdge.io</text>
-  <line x1="28" y1="76" x2="832" y2="76" stroke="#164e63" stroke-width="1"/>
-  <rect x="28"  y="88" width="110" height="44" rx="8" fill="#0c1e24"/>
+  <line x1="28" y1="76" x2="832" y2="76" stroke="#78350f" stroke-width="1"/>
+  <rect x="28"  y="88" width="110" height="44" rx="8" fill="#1c1500"/>
   <text class="stat-title" x="40"  y="104">Citations</text>
   <text class="stat-value" x="40"  y="122">24</text>
-  <rect x="150" y="88" width="110" height="44" rx="8" fill="#0c1e24"/>
+  <rect x="150" y="88" width="110" height="44" rx="8" fill="#1c1500"/>
   <text class="stat-title" x="162" y="104">h-index</text>
   <text class="stat-value" x="162" y="122">2</text>
-  <rect x="272" y="88" width="110" height="44" rx="8" fill="#0c1e24"/>
+  <rect x="272" y="88" width="110" height="44" rx="8" fill="#1c1500"/>
   <text class="stat-title" x="284" y="104">i10-index</text>
   <text class="stat-value" x="284" y="122">1</text>
-  <line x1="28" y1="144" x2="832" y2="144" stroke="#164e63" stroke-width="1"/>
+  <line x1="28" y1="144" x2="832" y2="144" stroke="#78350f" stroke-width="1"/>
   <g>
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.107;0.107;0.232;0.232;1" dur="28s" repeatCount="indefinite"/>
-    <circle class="dot-a" cx="38" cy="168" r="4" fill="#0891b2"/>
-    <circle class="dot-b" cx="52" cy="168" r="4" fill="#0891b2"/>
-    <circle class="dot-c" cx="66" cy="168" r="4" fill="#0891b2"/>
+    <circle class="dot-a" cx="38" cy="168" r="4" fill="#b45309"/>
+    <circle class="dot-b" cx="52" cy="168" r="4" fill="#b45309"/>
+    <circle class="dot-c" cx="66" cy="168" r="4" fill="#b45309"/>
   </g>
-  <rect x="28" y="156" width="3" height="18" rx="1" fill="#22d3ee">
+  <rect x="28" y="156" width="3" height="18" rx="1" fill="#fbbf24">
     <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;0;0" keyTimes="0;0.107;0.125;0.143;0.161;0.179;0.197;0.215;0.232;1" dur="28s" repeatCount="indefinite"/>
   </rect>
   <text class="paper" x="28" y="170">
@@ -44,11 +44,11 @@
   </text>
   <g>
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.286;0.286;0.411;0.411;1" dur="28s" repeatCount="indefinite"/>
-    <circle class="dot-a" cx="38" cy="198" r="4" fill="#0891b2"/>
-    <circle class="dot-b" cx="52" cy="198" r="4" fill="#0891b2"/>
-    <circle class="dot-c" cx="66" cy="198" r="4" fill="#0891b2"/>
+    <circle class="dot-a" cx="38" cy="198" r="4" fill="#b45309"/>
+    <circle class="dot-b" cx="52" cy="198" r="4" fill="#b45309"/>
+    <circle class="dot-c" cx="66" cy="198" r="4" fill="#b45309"/>
   </g>
-  <rect x="28" y="186" width="3" height="18" rx="1" fill="#22d3ee">
+  <rect x="28" y="186" width="3" height="18" rx="1" fill="#fbbf24">
     <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;0;0" keyTimes="0;0.286;0.304;0.322;0.340;0.358;0.376;0.393;0.411;1" dur="28s" repeatCount="indefinite"/>
   </rect>
   <text class="paper" x="28" y="200">
@@ -57,11 +57,11 @@
   </text>
   <g>
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.464;0.464;0.589;0.589;1" dur="28s" repeatCount="indefinite"/>
-    <circle class="dot-a" cx="38" cy="228" r="4" fill="#0891b2"/>
-    <circle class="dot-b" cx="52" cy="228" r="4" fill="#0891b2"/>
-    <circle class="dot-c" cx="66" cy="228" r="4" fill="#0891b2"/>
+    <circle class="dot-a" cx="38" cy="228" r="4" fill="#b45309"/>
+    <circle class="dot-b" cx="52" cy="228" r="4" fill="#b45309"/>
+    <circle class="dot-c" cx="66" cy="228" r="4" fill="#b45309"/>
   </g>
-  <rect x="28" y="216" width="3" height="18" rx="1" fill="#22d3ee">
+  <rect x="28" y="216" width="3" height="18" rx="1" fill="#fbbf24">
     <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;0;0" keyTimes="0;0.464;0.482;0.500;0.518;0.536;0.554;0.571;0.589;1" dur="28s" repeatCount="indefinite"/>
   </rect>
   <text class="paper" x="28" y="230">
@@ -70,18 +70,18 @@
   </text>
   <g>
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.643;0.643;0.768;0.768;1" dur="28s" repeatCount="indefinite"/>
-    <circle class="dot-a" cx="38" cy="258" r="4" fill="#0891b2"/>
-    <circle class="dot-b" cx="52" cy="258" r="4" fill="#0891b2"/>
-    <circle class="dot-c" cx="66" cy="258" r="4" fill="#0891b2"/>
+    <circle class="dot-a" cx="38" cy="258" r="4" fill="#b45309"/>
+    <circle class="dot-b" cx="52" cy="258" r="4" fill="#b45309"/>
+    <circle class="dot-c" cx="66" cy="258" r="4" fill="#b45309"/>
   </g>
-  <rect x="28" y="246" width="3" height="18" rx="1" fill="#22d3ee">
+  <rect x="28" y="246" width="3" height="18" rx="1" fill="#fbbf24">
     <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;0;0" keyTimes="0;0.643;0.661;0.679;0.696;0.714;0.732;0.750;0.768;1" dur="28s" repeatCount="indefinite"/>
   </rect>
   <text class="paper" x="28" y="260">
     <tspan class="num">4.</tspan>  LT-EDI-2023: Depression Level Detection in Social Media
     <animate attributeName="opacity" values="0;0;0;1;1;0;0" keyTimes="0;0.750;0.793;0.807;0.893;0.929;1" dur="28s" repeatCount="indefinite"/>
   </text>
-  <line x1="28" y1="290" x2="832" y2="290" stroke="#164e63" stroke-width="1"/>
-  <rect x="28" y="304" width="246" height="38" rx="10" fill="#0c1e24"/>
+  <line x1="28" y1="290" x2="832" y2="290" stroke="#78350f" stroke-width="1"/>
+  <rect x="28" y="304" width="246" height="38" rx="10" fill="#1c1500"/>
   <text class="link" x="42" y="328">View Full Google Scholar Profile →</text>
 </svg>
