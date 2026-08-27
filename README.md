@@ -227,21 +227,20 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 ## Activity
 
-<div align="center">
+<!-- <div align="center">
 
 <img src="https://streak-stats.demolab.com?user=NinjaOfNeurons&theme=transparent&hide_border=false&border=881337&background=00000000&ring=fb7185&fire=be123c&currStreakLabel=fb7185&sideLabels=fb7185&dates=8b8fa8&stroke=881337" height="165" />
 
 <img src="https://github-readme-stats.vercel.app/api?username=NinjaOfNeurons&show_icons=true&hide_border=false&border_color=881337&theme=transparent&bg_color=00000000&title_color=fb7185&icon_color=be123c&text_color=e2e8f0" height="165" />
 
-</div>
+</div> -->
 
-<br/>
+<!-- <br/>
 
 <div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=NinjaOfNeurons&bg_color=0d1117&color=fb7185&line=be123c&point=e9d5ff&area=true&hide_border=true&area_color=4c0519" width="95%" />
-</div>
+</div> -->
 
----
 
 <div align="center">
 <img src="https://komarev.com/ghpvc/?username=NinjaOfNeurons&color=be123c&style=flat-square&label=profile+views" />
