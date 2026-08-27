@@ -1,126 +1,40 @@
-import urllib.request
+import datetime as dt
+import html
 import json
-import datetime
 import sys
-import os
+from pathlib import Path
+from urllib.parse import urlencode
+from urllib.request import urlopen
 
-# ── Config ────────────────────────────────────────────────────────────────────
-# CITY      = "Ohio, USA"
-CITY      = "Delhi, India"
-LATITUDE  = 28.613939
+"""Configuration and daily content for the generated profile assets."""
+
+CITY = "Delhi, India"
+LATITUDE = 28.613939
 LONGITUDE = 77.209021
-# TIMEZONE  = "America/Panama"
 TIMEZONE = "Asia/Kolkata"
-# ──────────────────────────────────────────────────────────────────────────────
 
-# ── 7 Daily Themes (Mon=0 … Sun=6) ───────────────────────────────────────────
+
+def make_theme(name, primary, primary_dim, bg_card, bg_accent, border,
+         wave_start, wave_mid, bg_grad_end, label, updated, focus, focus2):
+  return {
+    "name": name, "primary": primary, "primary_dim": primary_dim,
+    "bg_card": bg_card, "bg_accent": bg_accent, "border": border,
+    "wave_start": wave_start, "wave_mid": wave_mid,
+    "bg_grad_end": bg_grad_end, "label": label, "updated": updated,
+    "focus": focus, "focus2": focus2,
+  }
+
+
+# One theme per weekday keeps the generated profile visually varied and makes
+# the weekday mapping explicit.
 THEMES = {
-    0: {  # Monday — Violet (default)
-        "name": "Violet",
-        "primary":     "#c084fc",
-        "primary_dim": "#a855f7",
-        "bg_card":     "#1e1b2e",
-        "bg_accent":   "#2d1b4e",
-        "border":      "#3b0764",
-        "wave_start":  "3b0764",
-        "wave_mid":    "6b21a8",
-        "bg_grad_end": "#1a0533",
-        "label":       "#7c3aed",
-        "updated":     "#4b3b6b",
-        "focus": "RAG · Agentic AI · MCP · AI Governance Platform",
-        "focus2": "Model Security · Edge Optimization · Encrypted AI",
-    }
-    # ,
-    # 1: {  # Tuesday — Cyan
-    #     "name": "Cyan",
-    #     "primary":     "#22d3ee",
-    #     "primary_dim": "#06b6d4",
-    #     "bg_card":     "#0c1e24",
-    #     "bg_accent":   "#0e2d35",
-    #     "border":      "#164e63",
-    #     "wave_start":  "0c4a6e",
-    #     "wave_mid":    "0e7490",
-    #     "bg_grad_end": "#071e26",
-    #     "label":       "#0891b2",
-    #     "updated":     "#1e4d5a",
-    #     "focus": "RAG Pipelines · Vector Search · Semantic Retrieval",
-    #     "focus2": "LangChain · LlamaIndex · ChromaDB · FAISS",
-    # },
-    # 2: {  # Wednesday — Amber
-    #     "name": "Amber",
-    #     "primary":     "#fbbf24",
-    #     "primary_dim": "#f59e0b",
-    #     "bg_card":     "#1c1500",
-    #     "bg_accent":   "#2d2100",
-    #     "border":      "#78350f",
-    #     "wave_start":  "451a03",
-    #     "wave_mid":    "92400e",
-    #     "bg_grad_end": "#1a1200",
-    #     "label":       "#b45309",
-    #     "updated":     "#3d2e00",
-    #     "focus": "Agentic AI · CrewAI · AutoGen · BeeAI",
-    #     "focus2": "Multi-agent Systems · Tool Use · Orchestration",
-    # },
-    # 3: {  # Thursday — Rose
-    #     "name": "Rose",
-    #     "primary":     "#fb7185",
-    #     "primary_dim": "#f43f5e",
-    #     "bg_card":     "#1c0a0e",
-    #     "bg_accent":   "#2d0f16",
-    #     "border":      "#881337",
-    #     "wave_start":  "4c0519",
-    #     "wave_mid":    "9f1239",
-    #     "bg_grad_end": "#1a080c",
-    #     "label":       "#be123c",
-    #     "updated":     "#3d0e18",
-    #     "focus": "AI Security · Model Encryption · Edge Intelligence",
-    #     "focus2": "Insider Risk · Threat Detection · Privacy AI",
-    # },
-    # 4: {  # Friday — Emerald
-    #     "name": "Emerald",
-    #     "primary":     "#34d399",
-    #     "primary_dim": "#10b981",
-    #     "bg_card":     "#031c12",
-    #     "bg_accent":   "#052e1c",
-    #     "border":      "#064e3b",
-    #     "wave_start":  "022c22",
-    #     "wave_mid":    "065f46",
-    #     "bg_grad_end": "#021510",
-    #     "label":       "#059669",
-    #     "updated":     "#0a3328",
-    #     "focus": "Open Source · RAG · MCP · Agentic Pipelines",
-    #     "focus2": "LangGraph · FastAPI · Docker · Kubernetes",
-    # },
-    # 5: {  # Saturday — Indigo
-    #     "name": "Indigo",
-    #     "primary":     "#818cf8",
-    #     "primary_dim": "#6366f1",
-    #     "bg_card":     "#0f0e24",
-    #     "bg_accent":   "#1a1840",
-    #     "border":      "#312e81",
-    #     "wave_start":  "1e1b4b",
-    #     "wave_mid":    "3730a3",
-    #     "bg_grad_end": "#0c0b1e",
-    #     "label":       "#4338ca",
-    #     "updated":     "#252060",
-    #     "focus": "Research · AI Governance · Published Papers",
-    #     "focus2": "Google Scholar · Applied NLP · Multimodal AI",
-    # },
-    # 6: {  # Sunday — Slate
-    #     "name": "Slate",
-    #     "primary":     "#94a3b8",
-    #     "primary_dim": "#64748b",
-    #     "bg_card":     "#0f1318",
-    #     "bg_accent":   "#1a2030",
-    #     "border":      "#1e293b",
-    #     "wave_start":  "0f172a",
-    #     "wave_mid":    "1e293b",
-    #     "bg_grad_end": "#0c1018",
-    #     "label":       "#475569",
-    #     "updated":     "#1e2535",
-    #     "focus": "Stable Diffusion · RL · Bitcoin Systems",
-    #     "focus2": "Edge Computing · Model Optimization · Encryption",
-    # },
+    0: make_theme("Violet", "#c084fc", "#a855f7", "#1e1b2e", "#2d1b4e", "#3b0764", "3b0764", "6b21a8", "#1a0533", "#7c3aed", "#4b3b6b", "RAG · Agentic AI · MCP · AI Governance Platform", "Model Security · Edge Optimization · Encrypted AI"),
+    1: make_theme("Lavender", "#d8b4fe", "#a855f7", "#241b35", "#38205c", "#581c87", "581c87", "7e22ce", "#210b3b", "#9333ea", "#62447e", "Multimodal AI · Evaluation · Responsible Systems", "Applied Research · Product Thinking · Reliable Delivery"),
+    2: make_theme("Amethyst", "#c4b5fd", "#8b5cf6", "#211c38", "#30205e", "#4c1d95", "4c1d95", "6d28d9", "#1e1044", "#7c3aed", "#57467c", "Machine Learning · Data Products · Model Observability", "Feature Engineering · Experimentation · Clear Metrics"),
+    3: make_theme("Orchid", "#e9d5ff", "#c026d3", "#2b1935", "#4a1d52", "#701a75", "701a75", "a21caf", "#310d3b", "#c026d3", "#754b7e", "Open Source · Developer Tools · Practical Automation", "Python · APIs · Documentation · Sustainable Engineering"),
+    4: make_theme("Indigo", "#a5b4fc", "#6366f1", "#1c1d3a", "#27265d", "#3730a3", "3730a3", "4f46e5", "#111342", "#6366f1", "#4c4d80", "AI Infrastructure · Cloud Systems · Edge Intelligence", "Fast APIs · Deployment Discipline · Systems That Scale"),
+    5: make_theme("Plum", "#f0abfc", "#d946ef", "#321a38", "#511c5c", "#86198f", "86198f", "a21caf", "#350b3d", "#c026d3", "#78477d", "Security · Privacy · Trustworthy AI", "Threat Modeling · Secure Defaults · Human-Centered Design"),
+    6: make_theme("Wisteria", "#ddd6fe", "#7c3aed", "#211b36", "#35205a", "#5b21b6", "5b21b6", "7c3aed", "#1e0d3d", "#8b5cf6", "#5b477b", "Learning · Reflection · New Technical Horizons", "Books · Side Projects · Questions Worth Pursuing"),
 }
 
 QUOTES = [
@@ -167,22 +81,25 @@ DAY_GREETINGS = {
 }
 
 def fetch_weather():
-    url = (
-        f"https://api.open-meteo.com/v1/forecast"
-        f"?latitude={LATITUDE}&longitude={LONGITUDE}"
-        f"&current=temperature_2m,weathercode"
-        f"&temperature_unit=celsius&timezone={TIMEZONE}"
-    )
+    params = urlencode({
+      "latitude": LATITUDE,
+      "longitude": LONGITUDE,
+      "current": "temperature_2m,weather_code",
+      "temperature_unit": "celsius",
+      "timezone": TIMEZONE,
+    })
+    url = f"https://api.open-meteo.com/v1/forecast?{params}"
     try:
-        with urllib.request.urlopen(url, timeout=10) as r:
-            data = json.loads(r.read())
-        temp = round(data["current"]["temperature_2m"])
-        code = data["current"]["weathercode"]
-        desc, emoji = WMO_CODES.get(code, ("Unknown", "🌡️"))
-        return temp, desc, emoji
-    except Exception as e:
-        print(f"Weather fetch failed: {e}", file=sys.stderr)
-        return None, "Unknown", "🌡️"
+      with urlopen(url, timeout=10) as response:
+        data = json.loads(response.read())
+      current = data["current"]
+      temp = round(current["temperature_2m"])
+      code = current.get("weather_code", current.get("weathercode"))
+      desc, emoji = WMO_CODES.get(code, ("Unknown", "🌡️"))
+      return temp, desc, emoji
+    except Exception as error:
+      print(f"Weather fetch failed: {error}", file=sys.stderr)
+      return None, "Unknown", "🌡️"
 
 def get_quote(day_of_year):
     return QUOTES[day_of_year % len(QUOTES)]
@@ -201,15 +118,24 @@ def wrap_text(text, max_chars):
         lines.append(line)
     return lines
 
+
+def escape_svg(text):
+    return html.escape(str(text), quote=False)
+
 # ── Generate dynamic.svg ──────────────────────────────────────────────────────
 def generate_dynamic_svg(greeting, city, temp, weather_desc, weather_emoji, quote, updated_str, t):
-    quote_lines = wrap_text(f'"{quote}"', 36)
+    quote_lines = wrap_text(f'"{escape_svg(quote)}"', 36)
     quote_svg = ""
     total_height = len(quote_lines) * 24
     start_y = 152 - total_height // 2 + 16
     for i, l in enumerate(quote_lines):
         quote_svg += f'<text class="quote" x="465" y="{start_y + i * 24}">{l}</text>\n    '
-    temp_str = f"{temp}°C" if temp is not None else "N/A"
+    temp_str = f"{escape_svg(temp)}°C" if temp is not None else "N/A"
+    greeting = escape_svg(greeting)
+    city = escape_svg(city)
+    weather_desc = escape_svg(weather_desc)
+    weather_emoji = escape_svg(weather_emoji)
+    updated_str = escape_svg(updated_str)
     p = t["primary"]; b = t["border"]; bc = t["bg_card"]
     bg2 = t["bg_grad_end"]; la = t["label"]; up = t["updated"]
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="620" height="320" viewBox="0 0 620 320">
@@ -723,7 +649,7 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
-    now     = datetime.datetime.utcnow()
+    now = dt.datetime.now(dt.timezone.utc)
     weekday = now.weekday()
     t       = THEMES[weekday]
 
@@ -735,29 +661,31 @@ def main():
     # Version = day of year so it increments daily busting all caches
     v = now.timetuple().tm_yday
 
-    os.makedirs("assets/svg", exist_ok=True)
+    output_dir = Path(__file__).resolve().parent
+    svg_dir = output_dir / "assets" / "svg"
+    svg_dir.mkdir(parents=True, exist_ok=True)
 
     # dynamic.svg
     svg_dynamic = generate_dynamic_svg(greeting, CITY, temp, weather_desc, weather_emoji, quote, updated, t)
-    with open("assets/svg/dynamic.svg", "w", encoding="utf-8") as f:
+    with (svg_dir / "dynamic.svg").open("w", encoding="utf-8") as f:
         f.write(svg_dynamic)
     print(f"✓ dynamic.svg  — {greeting} · {t['name']} theme · {temp}°C {weather_emoji}")
 
     # chat.svg
     svg_chat = generate_chat_svg(t)
-    with open("assets/svg/chat.svg", "w", encoding="utf-8") as f:
+    with (svg_dir / "chat.svg").open("w", encoding="utf-8") as f:
         f.write(svg_chat)
     print(f"✓ chat.svg     — {t['name']} theme · focus: {t['focus'][:40]}...")
 
     # scholar.svg
     svg_scholar = generate_scholar_svg(t)
-    with open("assets/svg/scholar.svg", "w", encoding="utf-8") as f:
+    with (svg_dir / "scholar.svg").open("w", encoding="utf-8") as f:
         f.write(svg_scholar)
     print(f"✓ scholar.svg  — {t['name']} theme")
 
     # README.md
     readme = generate_readme(t, v)
-    with open("README.md", "w", encoding="utf-8") as f:
+    with (output_dir / "README.md").open("w", encoding="utf-8") as f:
         f.write(readme)
     print(f"✓ README.md    — {t['name']} theme · v={v} · waves + stats updated")
 
