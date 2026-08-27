@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4c0519,50:9f1239,100:4c0519&height=200&section=header&text=Karanpreet%20Singh&fontSize=54&fontColor=ffffff&fontAlignY=38&desc=Machine%20Learning%20Engineer%20%C2%B7%20Product%20Lead%20%C2%B7%20AI%20Explorer&descAlignY=58&descSize=16&descColor=e9d5ff" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:701a75,50:a21caf,100:701a75&height=200&section=header&text=Karanpreet%20Singh&fontSize=54&fontColor=ffffff&fontAlignY=38&desc=Machine%20Learning%20Engineer%20%C2%B7%20Product%20Lead%20%C2%B7%20AI%20Explorer&descAlignY=58&descSize=16&descColor=e9d5ff" />
 
 </div>
 
@@ -227,23 +227,24 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 ## Activity
 
-<!-- <div align="center">
+<div align="center">
 
-<img src="https://streak-stats.demolab.com?user=NinjaOfNeurons&theme=transparent&hide_border=false&border=881337&background=00000000&ring=fb7185&fire=be123c&currStreakLabel=fb7185&sideLabels=fb7185&dates=8b8fa8&stroke=881337" height="165" />
+<img src="https://streak-stats.demolab.com?user=NinjaOfNeurons&theme=transparent&hide_border=false&border=701a75&background=00000000&ring=e9d5ff&fire=c026d3&currStreakLabel=e9d5ff&sideLabels=e9d5ff&dates=8b8fa8&stroke=701a75" height="165" />
 
-<img src="https://github-readme-stats.vercel.app/api?username=NinjaOfNeurons&show_icons=true&hide_border=false&border_color=881337&theme=transparent&bg_color=00000000&title_color=fb7185&icon_color=be123c&text_color=e2e8f0" height="165" />
+<img src="https://github-readme-stats.vercel.app/api?username=NinjaOfNeurons&show_icons=true&hide_border=false&border_color=701a75&theme=transparent&bg_color=00000000&title_color=e9d5ff&icon_color=c026d3&text_color=e2e8f0" height="165" />
 
-</div> -->
+</div>
 
-<!-- <br/>
+<br/>
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=NinjaOfNeurons&bg_color=0d1117&color=fb7185&line=be123c&point=e9d5ff&area=true&hide_border=true&area_color=4c0519" width="95%" />
-</div> -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=NinjaOfNeurons&bg_color=0d1117&color=e9d5ff&line=c026d3&point=e9d5ff&area=true&hide_border=true&area_color=701a75" width="95%" />
+</div>
 
+---
 
 <div align="center">
-<img src="https://komarev.com/ghpvc/?username=NinjaOfNeurons&color=be123c&style=flat-square&label=profile+views" />
+<img src="https://komarev.com/ghpvc/?username=NinjaOfNeurons&color=c026d3&style=flat-square&label=profile+views" />
 </div>
 
 <div align="center">
@@ -258,4 +259,4 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4c0519,50:9f1239,100:4c0519&height=120&section=footer&text=%22Let%27s+connect+and+explore+the+world+of+AI+together.%22&fontSize=13&fontColor=e9d5ff&fontAlignY=65" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:701a75,50:a21caf,100:701a75&height=120&section=footer&text=%22Let%27s+connect+and+explore+the+world+of+AI+together.%22&fontSize=13&fontColor=e9d5ff&fontAlignY=65" width="100%" />
