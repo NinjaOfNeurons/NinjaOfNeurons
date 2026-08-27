@@ -308,13 +308,13 @@ def generate_scholar_svg(t):
   <line x1="28" y1="76" x2="832" y2="76" stroke="{b}" stroke-width="1"/>
   <rect x="28"  y="88" width="110" height="44" rx="8" fill="{bc}"/>
   <text class="stat-title" x="40"  y="104">Citations</text>
-  <text class="stat-value" x="40"  y="122">24</text>
+  <text class="stat-value" x="40"  y="122">33</text>
   <rect x="150" y="88" width="110" height="44" rx="8" fill="{bc}"/>
   <text class="stat-title" x="162" y="104">h-index</text>
   <text class="stat-value" x="162" y="122">2</text>
   <rect x="272" y="88" width="110" height="44" rx="8" fill="{bc}"/>
   <text class="stat-title" x="284" y="104">i10-index</text>
-  <text class="stat-value" x="284" y="122">1</text>
+  <text class="stat-value" x="284" y="122">2</text>
   <line x1="28" y1="144" x2="832" y2="144" stroke="{b}" stroke-width="1"/>
   <g>
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.107;0.107;0.232;0.232;1" dur="28s" repeatCount="indefinite"/>
