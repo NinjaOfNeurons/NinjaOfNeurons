@@ -612,9 +612,6 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 ## Activity
 
-<div align="center">
-<img src="https://komarev.com/ghpvc/?username=NinjaOfNeurons&color={lbl}&style=flat-square&label=profile+views" />
-</div>
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/dynamic.svg?sanitize=true&v={v}" alt="Dynamic Profile Card" />
