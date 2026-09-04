@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:701a75,50:a21caf,100:701a75&height=200&section=header&text=Karanpreet%20Singh&fontSize=54&fontColor=ffffff&fontAlignY=38&desc=Machine%20Learning%20Engineer%20%C2%B7%20Product%20Lead%20%C2%B7%20AI%20Explorer&descAlignY=58&descSize=16&descColor=e9d5ff" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3730a3,50:4f46e5,100:3730a3&height=200&section=header&text=Karanpreet%20Singh&fontSize=54&fontColor=ffffff&fontAlignY=38&desc=Machine%20Learning%20Engineer%20%C2%B7%20Product%20Lead%20%C2%B7%20AI%20Explorer&descAlignY=58&descSize=16&descColor=e9d5ff" />
 
 </div>
 
 <br/>
 
 <a href="https://www.linkedin.com/in/karanpreet-5ingh" target="_blank">
-  <img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/chat.svg?v=246" />
+  <img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/chat.svg?v=247" />
 </a>
 
 <br/>
@@ -36,7 +36,7 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 <div align="center">
 
 <a href="https://scholar.google.com/citations?user=gmjWDxkAAAAJ&hl=en" target="_blank">
-  <img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/scholar.svg?sanitize=true&v=246" alt="Google Scholar" />
+  <img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/scholar.svg?sanitize=true&v=247" alt="Google Scholar" />
 </a>
 
 </div>
@@ -229,7 +229,7 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/dynamic.svg?sanitize=true&v=246" alt="Dynamic Profile Card" />
+<img src="https://raw.githubusercontent.com/NinjaOfNeurons/NinjaOfNeurons/main/assets/svg/dynamic.svg?sanitize=true&v=247" alt="Dynamic Profile Card" />
 </div>
 
 <br/>
@@ -240,4 +240,4 @@ model-health-dashboard/   →  AI model drift & reliability monitoring
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:701a75,50:a21caf,100:701a75&height=120&section=footer&text=%22Let%27s+connect+and+explore+the+world+of+AI+together.%22&fontSize=13&fontColor=e9d5ff&fontAlignY=65" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3730a3,50:4f46e5,100:3730a3&height=120&section=footer&text=%22Let%27s+connect+and+explore+the+world+of+AI+together.%22&fontSize=13&fontColor=e9d5ff&fontAlignY=65" width="100%" />
